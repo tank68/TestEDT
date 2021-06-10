@@ -1046,6 +1046,7 @@
   <documents>Document.уа_ВводВыводЦенныхБумаг</documents>
   <documents>Document.уа_Партия</documents>
   <documents>Document.уа_ПереоценкаАмортизацияЦенныхБумаг</documents>
+  <documents>Document.Документ1Фича1</documents>
   <enums>Enum.ВариантыВерсионированияОбъектов</enums>
   <enums>Enum.ВариантыПубликацииДополнительныхОтчетовИОбработок</enums>
   <enums>Enum.ВидБанковскогоСчета</enums>
