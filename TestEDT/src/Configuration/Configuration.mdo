@@ -1042,6 +1042,7 @@
   <catalogs>Catalog.уа_ФинансовыеИнструменты</catalogs>
   <catalogs>Catalog.уа_ШкалыРейтингов</catalogs>
   <catalogs>Catalog.УчетныеЗаписиЭлектроннойПочты</catalogs>
+  <catalogs>Catalog.СправочникВКонфигураторе</catalogs>
   <documents>Document.уа_ОперацияБух</documents>
   <documents>Document.уа_ВводВыводЦенныхБумаг</documents>
   <documents>Document.уа_Партия</documents>
