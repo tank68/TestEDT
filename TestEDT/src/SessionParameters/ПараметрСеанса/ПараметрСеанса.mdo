@@ -6,9 +6,9 @@
     <value>Параметр сеанса</value>
   </synonym>
   <type>
-    <types>String</types>
-    <stringQualifiers>
-      <length>10</length>
-    </stringQualifiers>
+    <types>Date</types>
+    <dateQualifiers>
+      <dateFractions>Date</dateFractions>
+    </dateQualifiers>
   </type>
 </mdclass:SessionParameter>
