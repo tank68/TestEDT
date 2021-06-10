@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a5d69207-11e7-4a56-8f24-5cbe0aa750e3">
+  <producedTypes>
+    <refType typeId="da621952-e778-401f-b027-d7ae7378ca0f" valueTypeId="a992bace-88ce-4b24-8010-c9e06d9ae4b2"/>
+    <listType typeId="40df4447-afac-4ffd-83e4-fb887c3f5215" valueTypeId="b650b2b0-8c74-4628-a943-1f333af41596"/>
+    <managerType typeId="a3652775-faae-4071-839a-0038819dafe0" valueTypeId="997bf8d5-e665-47fe-b806-842a2ee88653"/>
+  </producedTypes>
+  <name>КонтрагентПортфеляДляПодписиОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контрагент портфеля для подписи отчетов</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Counterparty portfolio to sign reports</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="31e7645b-6a2b-4909-9785-a3afc27cddcb">
+    <name>УК</name>
+    <synonym>
+      <key>ru</key>
+      <value>Управляющая компания</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Management company</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4d0ea823-b2f7-4810-b585-d418fb45d308">
+    <name>Клиент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Клиент</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Client</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

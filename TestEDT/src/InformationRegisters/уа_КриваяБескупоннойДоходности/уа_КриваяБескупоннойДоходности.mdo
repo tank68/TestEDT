@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e499eb97-071f-4233-86e0-d240e4450fa2">
+  <producedTypes>
+    <selectionType typeId="2a7ae790-5bc9-452d-9fe9-b0ff5818f20e" valueTypeId="76b8f90b-a68e-4821-b491-fc817d96822c"/>
+    <listType typeId="1d73e698-18d7-486c-9b88-d18e5183c767" valueTypeId="ca467822-ef3e-43b2-adb6-08e14af313e0"/>
+    <managerType typeId="3c9d9ab8-9cdf-426c-ad83-e5ea6db379e6" valueTypeId="61180798-1ac4-4b98-9a20-cb40877e47f3"/>
+    <recordSetType typeId="a3593806-7a41-4869-b8a5-3c7a7081f093" valueTypeId="8dca15fa-e4a3-4f6c-a35d-315ce86345fb"/>
+    <recordKeyType typeId="6baa7a0c-e545-416b-be92-9fe87bd62360" valueTypeId="ed10b938-6f40-4d5d-af4b-c568f3e4d294"/>
+    <recordType typeId="f3d4b5d3-1782-4e42-9201-736ae054f6f5" valueTypeId="daa911bc-b43a-4130-bfb6-ee62ed79676e"/>
+    <recordManagerType typeId="c1ec1cdc-ea94-4b8e-94a3-32b874365efb" valueTypeId="eb364219-26f4-4d6d-a286-fb10098b674c"/>
+  </producedTypes>
+  <name>уа_КриваяБескупоннойДоходности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Кривая бескупонной доходности</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="05600028-4520-4616-9609-34e56203cf65">
+    <name>B1</name>
+    <synonym>
+      <key>ru</key>
+      <value>B1</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4b16d4ab-1eaf-4156-b705-ec362fbf4eb7">
+    <name>B2</name>
+    <synonym>
+      <key>ru</key>
+      <value>B2</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4445f0c3-36b2-43ce-99bc-44b2e22e5a70">
+    <name>B3</name>
+    <synonym>
+      <key>ru</key>
+      <value>B3</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="4320c510-b1a5-4bea-8fda-93d5d4badec6">
+    <name>T1</name>
+    <synonym>
+      <key>ru</key>
+      <value>T1</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="90aa785c-eeb7-4375-9c40-6cb0a4739c2c">
+    <name>G1</name>
+    <synonym>
+      <key>ru</key>
+      <value>G1</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="92bb66d5-ca59-420c-8b04-7d1633e731a6">
+    <name>G2</name>
+    <synonym>
+      <key>ru</key>
+      <value>G2</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7172d41c-beba-474b-bcae-7ca4505388e1">
+    <name>G3</name>
+    <synonym>
+      <key>ru</key>
+      <value>G3</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="17701e73-ca85-437e-8549-3de4f86d211d">
+    <name>G4</name>
+    <synonym>
+      <key>ru</key>
+      <value>G4</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ce7a4d84-9f1e-4fc5-ad7d-8d3911cdbb60">
+    <name>G5</name>
+    <synonym>
+      <key>ru</key>
+      <value>G5</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="9adbc278-c2bc-42a9-b1ae-e1c088fba14d">
+    <name>G6</name>
+    <synonym>
+      <key>ru</key>
+      <value>G6</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="b211c067-9d04-49c6-93c9-e5321a495f10">
+    <name>G7</name>
+    <synonym>
+      <key>ru</key>
+      <value>G7</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d657615d-398b-42e4-b3ba-7c9042722258">
+    <name>G8</name>
+    <synonym>
+      <key>ru</key>
+      <value>G8</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="ecb6bffb-387b-4e49-8a48-0f34127d977f">
+    <name>G9</name>
+    <synonym>
+      <key>ru</key>
+      <value>G9</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+</mdclass:InformationRegister>

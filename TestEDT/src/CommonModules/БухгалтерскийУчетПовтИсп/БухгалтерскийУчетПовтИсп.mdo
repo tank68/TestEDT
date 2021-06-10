@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3895031f-df19-4857-bb93-f118659bc3ab">
+  <name>БухгалтерскийУчетПовтИсп</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский учет повт исп</value>
+  </synonym>
+  <comment>AVR</comment>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+  <serverCall>true</serverCall>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
+</mdclass:CommonModule>

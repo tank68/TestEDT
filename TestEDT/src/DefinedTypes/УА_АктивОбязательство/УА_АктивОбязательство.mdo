@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="34f0c420-f252-4693-905c-cc874549e818">
+  <producedTypes>
+    <containerType typeId="b3bb52c8-0f37-45b7-88d7-b35c8e616bd2" valueTypeId="b062f24d-4b88-47b8-a244-ec357de6e646"/>
+  </producedTypes>
+  <name>УА_АктивОбязательство</name>
+  <synonym>
+    <key>ru</key>
+    <value>Актив обязательство</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+    <types>CatalogRef.БанковскиеСчета</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+  </type>
+</mdclass:DefinedType>

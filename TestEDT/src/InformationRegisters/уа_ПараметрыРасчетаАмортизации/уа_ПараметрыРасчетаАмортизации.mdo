@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b2f7408b-651f-4559-b4e3-91dae6dee26f">
+  <producedTypes>
+    <selectionType typeId="82087a79-ba5b-4977-b1db-60a725181b9c" valueTypeId="3fdddd99-6f8d-4710-8aab-232e635e2449"/>
+    <listType typeId="7b1afd1c-ec44-4aa3-8804-449d3b96a7e1" valueTypeId="1c57773a-aca9-4a31-8764-ff10525a819c"/>
+    <managerType typeId="62d6316d-33e3-4916-85a9-125a71da3ba1" valueTypeId="569d9b46-7511-4f67-8f61-f2dba5a7f2a7"/>
+    <recordSetType typeId="27268e5d-8671-4904-a373-a4ee8f420b1d" valueTypeId="e7064407-7f77-4ca4-b3d1-f76c2f2d5c36"/>
+    <recordKeyType typeId="6e3fb481-b607-427d-9b76-22eff710dbfb" valueTypeId="ba7721c2-7259-4713-9f49-1c7bc5c32449"/>
+    <recordType typeId="1ecfcda6-0f88-4989-b1e1-a2d7c545d1f1" valueTypeId="7e35966b-690a-4d89-ae46-e50829e8e9ee"/>
+    <recordManagerType typeId="214cd01d-3ed5-46ad-9b33-5f55331ec1f8" valueTypeId="78fa6f51-71e3-411e-a193-1a64bb4a5aad"/>
+  </producedTypes>
+  <name>уа_ПараметрыРасчетаАмортизации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры для расчета амортизации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <writeMode>RecorderSubordinate</writeMode>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="59534ebd-c0dc-4015-896b-c1ea51c2ec46">
+    <name>ЦенаАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена амортизации</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="0cff2e96-e6cd-451c-90a3-d5ce09c402ea">
+    <name>ЦенаНакопленногоДисконта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена накопленного дисконта</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="f6e602a8-3d38-434f-acbb-f4f9e897a75e">
+    <name>ДатаОкончанияАмортизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата окончания амортизации</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bf1b5147-ce15-47d3-a5db-62151062f5c3">
+    <name>ЭСП</name>
+    <synonym>
+      <key>ru</key>
+      <value>ЭСП</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="2851001d-12eb-4452-b80a-a303446ea7ac">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="8768359c-663b-44bc-9fa5-21341d6cc8e2">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="2d43aa74-c33c-4651-9104-7c75b4232c94">
+    <name>Партия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Партия</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="695017dc-2d28-473c-8c70-1f97b57d5dd6">
+  <producedTypes>
+    <refType typeId="b2aa798a-3cc5-4993-85d4-184bbaf06b83" valueTypeId="140f892d-78e8-4c20-94b2-94c7a7966c33"/>
+    <listType typeId="adc495ef-b5c8-4d5d-8a61-ba54ee5c2a06" valueTypeId="a22c5369-3903-418a-860a-e8e6a9b7f852"/>
+    <managerType typeId="a0bb5412-2687-45c8-8f6e-8a1367b2ec63" valueTypeId="4f11330b-6b89-420f-a80b-6be243179369"/>
+  </producedTypes>
+  <name>ПорядокСчетаЕПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Порядок счета ЕПС</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>The order of the account of the ENP</value>
+  </synonym>
+  <comment>AVR</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="5b5e6bff-d874-4e99-abc9-dccfe5579dac">
+    <name>Раздел</name>
+    <synonym>
+      <key>ru</key>
+      <value>Раздел</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Section</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c2592730-05c8-4a58-ad5b-55c2b7254c23">
+    <name>СчетПервогоПорядка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет первого порядка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account of the first order</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="42339706-c10c-489e-a76c-a73c475545f6">
+    <name>СчетВторогоПорядка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет второго порядка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The score of the second-order</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="95f175a8-219c-4dea-834a-441a09a1bb34">
+    <name>СчетТретьегоПорядка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет третьего порядка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The expense of the third order</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

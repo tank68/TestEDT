@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d5dd2350-65dc-4c06-9502-12f0d017979a">
+  <producedTypes>
+    <refType typeId="3fb872ae-4fe2-4998-b0ef-920ce2f53709" valueTypeId="a0f35c68-2754-45eb-b5fa-0b4e6923d7d4"/>
+    <listType typeId="dc47ffc0-b638-49bc-a9e5-2e3c7a420256" valueTypeId="1ab4937f-3ef8-460f-a452-4ef2d4a9ef51"/>
+    <managerType typeId="c0b0f5b2-59e5-4286-8bb2-4520b0faf558" valueTypeId="58c4ecf6-9cd8-4b8d-9aed-7901991fdd53"/>
+  </producedTypes>
+  <name>уа_ВидыСтоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды стоимости</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="86c4ccc2-8c7f-48f5-8985-a53ad2fbadca">
+    <name>Стоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стоимость</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bf8807b-e28a-480a-9ef6-16571ef07266">
+    <name>УНКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>УНКД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7dd99a64-d786-459e-b3f7-1d9b3a510339">
+    <name>Премия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Премия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7fe9f2e9-8d7b-4988-8edb-62be492946d5">
+    <name>Дисконт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дисконт</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9f327a9-0a8b-41ce-944e-232da34707be">
+    <name>НКД</name>
+    <synonym>
+      <key>ru</key>
+      <value>НКД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c9740c7-17b3-4274-a313-57d66ff366a0">
+    <name>Индексация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индексация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="41904921-f824-4506-8404-5f23c5fa6c49">
+    <name>КупонКВыплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купон к выплате</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="14411929-c8c2-49fb-b009-1b3c8bdc84a6">
+    <name>НоминалКВыплате</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинал к выплате</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

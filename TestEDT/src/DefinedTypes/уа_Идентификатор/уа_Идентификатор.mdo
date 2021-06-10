@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="07e86059-7185-4947-8682-b32800f14b78">
+  <producedTypes>
+    <containerType typeId="84b51dbb-efe1-4f5f-b105-735efe44ceae" valueTypeId="fa6b5a17-cca7-42d3-a58d-160b4a57ca70"/>
+  </producedTypes>
+  <name>уа_Идентификатор</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификатор</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>External code</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>100</length>
+    </stringQualifiers>
+  </type>
+</mdclass:DefinedType>

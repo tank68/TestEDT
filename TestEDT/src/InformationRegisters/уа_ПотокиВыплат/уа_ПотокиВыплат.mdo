@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e61dbf34-0e78-4f2c-ab98-e38918042428">
+  <producedTypes>
+    <selectionType typeId="f878252b-5bea-4914-b4cc-0e7c34e3b8f6" valueTypeId="f74249d6-d112-44dd-b395-ccc730f28adb"/>
+    <listType typeId="5a79dad8-e29b-47b8-95f6-a979b9f353ef" valueTypeId="ba08c393-134b-41d3-84b3-49c8dddab309"/>
+    <managerType typeId="775f40ce-cd49-43b2-b995-e02546668561" valueTypeId="e9d694e7-36a1-40e5-8411-836911b1ce41"/>
+    <recordSetType typeId="3e8acd2c-8945-42be-847e-f99b743f0214" valueTypeId="b6b4d23f-0682-4454-bf2b-b1f10a0bb5bd"/>
+    <recordKeyType typeId="7bfbabd9-f5f9-43e4-9d9e-248841665c5c" valueTypeId="ac80c3d2-4e2a-4fbf-b1ba-5854ed6a93ed"/>
+    <recordType typeId="f176de07-c8e5-41a8-9ace-46e89b476e27" valueTypeId="4177825d-113e-4d07-8e97-5590e2b5fa13"/>
+    <recordManagerType typeId="49585efb-3d51-4752-bdf0-bd404f869e7d" valueTypeId="2d828e89-f23a-4cda-b956-b57e978f4d7c"/>
+  </producedTypes>
+  <name>уа_ПотокиВыплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Потоки выплат</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceFirst>true</enableTotalsSliceFirst>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="835989b5-7c27-4c93-83f3-13c0fee66706">
+    <name>СуммаВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма выплаты</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Стоимость</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="82c2d51b-d428-401f-aa13-002df9ff8ea9">
+    <name>Ставка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ставка</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="bad13ffd-9178-4196-adfc-d9d3387846ac">
+    <name>КупонныйПериод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купонный период</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="d1590f8c-9fa8-4e81-80bf-e830395edaaf">
+    <name>ДатаОбъявления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата объявления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="6eea3802-4c05-45bf-a5b9-6f1f3f525621">
+    <name>ВидВыплаты</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид выплаты</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_ВидыВыплат</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="99b2cde0-1065-4110-978b-689ceb5d3b01">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

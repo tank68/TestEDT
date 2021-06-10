@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d032a978-c374-4b1c-88d8-3067a74d61ee">
+  <producedTypes>
+    <refType typeId="40f0e92f-50a1-40fd-a3a3-1737e3b23ed3" valueTypeId="8829cc99-ec84-4c0e-8273-bb959c2daf02"/>
+    <listType typeId="d5ebe7ef-d3a5-4aac-bd8b-4ccec95774a6" valueTypeId="85114d42-f338-4d18-8046-2c61c8a52ccc"/>
+    <managerType typeId="65121677-966c-4a6b-87cd-f280df3cd398" valueTypeId="7c0a564e-519d-4081-8c25-55e1ee858a60"/>
+  </producedTypes>
+  <name>уа_ВидыОперацийВводВыводАктивовИзДУ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды операций ввод/вывода активов из ДУ</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="f3ca6a08-ff92-4b0f-bca6-8d001a744fea">
+    <name>ВводАктивовВДУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод активов в ДУ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="b307d3f2-47aa-4d26-bae4-8acd8bd7742b">
+    <name>ВыводАктивовИзДУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вывод активов из ДУ</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

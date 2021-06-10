@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f17f0e09-6580-482b-a6f6-3915b4aad492">
+  <producedTypes>
+    <refType typeId="b841e2cb-a377-487c-be93-a53235b1ef22" valueTypeId="08932f2e-02aa-4c73-9524-f9fe2dba5a2f"/>
+    <listType typeId="ac26ec0b-5ea7-42ba-b670-c03a8c4abc13" valueTypeId="cfd0326a-d62c-4495-9087-9729eb5f6591"/>
+    <managerType typeId="f77ec28e-06e7-44c4-b79b-c4e2c2a43ec9" valueTypeId="aa5d3223-1223-442f-9c09-e991715d8a85"/>
+  </producedTypes>
+  <name>ВидыВнешнихИсточников</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы внешнего источника</value>
+  </synonym>
+  <comment>ДУ</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bd9a67e5-e97b-4a7c-8f33-13f31d017dfd">
+    <name>БазаДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>База данных</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7bb0996a-776e-445d-8ccf-a705ddfa757a">
+    <name>ХранилищеКонфигурации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хранилище конфигурации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e0db22aa-66d6-4464-8ec5-7f0e9eeac3d7">
+    <name>КластерСерверов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кластер серверов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="325454e3-2cf1-470a-9a66-4ffc2024eee9">
+    <name>HTTP</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTTP - сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ab4eec62-c7e0-46f6-a2a1-f5f829ab86da">
+    <name>WEB</name>
+    <synonym>
+      <key>ru</key>
+      <value>WEB - сервис</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a1949560-eba8-496c-ab61-b921df9122fe">
+    <name>ФайловоеХранилище</name>
+    <synonym>
+      <key>ru</key>
+      <value>Файловое хранилище</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

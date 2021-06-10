@@ -1,0 +1,366 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="25117535-6012-48eb-9a62-afd42dd36a7a">
+  <producedTypes>
+    <objectType typeId="1514babb-9e9a-43e1-8432-833f2c2f0bb9" valueTypeId="578dec73-d102-4f56-ad85-cedf0b2016b9"/>
+    <refType typeId="521ee3e8-e5ea-4441-a69b-61332606c2c6" valueTypeId="6c227742-642c-41bf-8613-13c43d928532"/>
+    <selectionType typeId="1479c530-cab5-49ba-9928-de129c38490a" valueTypeId="6c3fd55c-54d5-4c82-be16-367b22779622"/>
+    <listType typeId="7a1d0bf8-d9fc-416e-8fa5-1d1bb55ca47a" valueTypeId="10a41677-c1a1-453c-8304-bb21a91624a7"/>
+    <managerType typeId="5f026601-1c58-4472-aae5-3f988f176d2d" valueTypeId="6b19702c-0d53-4d51-a043-a0d962ea3a95"/>
+  </producedTypes>
+  <name>уа_ПереоценкаАмортизацияЦенныхБумаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переоценка и амортизация ценных бумаг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.уа_ПереоценкаАмортизацияЦенныхБумаг.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberAllowedLength>Variable</numberAllowedLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.уа_ПереоценкаАмортизацияЦенныхБумаг.Form.ФормаДокумента</defaultObjectForm>
+  <registerRecords>AccountingRegister.ЕПС</registerRecords>
+  <registerRecords>AccumulationRegister.уа_РасчетыПоЦеннымБумагам</registerRecords>
+  <postInPrivilegedMode>true</postInPrivilegedMode>
+  <unpostInPrivilegedMode>true</unpostInPrivilegedMode>
+  <attributes uuid="0731b0cf-649f-48fd-9fc1-bd5019e5a297">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9f8f80df-f059-42d5-b9ae-89ac4eb677c6">
+    <name>ОценочнаяКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценочная категория</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_ОценочнаяКатегория</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="6f80da4e-2f0c-4db5-a7fa-e3ca15566153">
+    <name>РучнаяКорректировка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ручная корректировка</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5bd1f36f-0874-4cf3-9bbe-5395411b90f2">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="575e68d5-ec93-43d3-b304-c17c345d16f6">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="c9ba9979-131f-426e-a29e-4d91aa581618">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="6f649d20-3506-4fef-8893-3980da2a6708">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="9331ba71-8575-47ce-bcc8-afda6ae5c801">
+    <producedTypes>
+      <objectType typeId="473452eb-962d-41f9-9270-0e80f5559092" valueTypeId="12b1ce6a-2930-4f74-adc9-fc1223248373"/>
+      <rowType typeId="082ab4b0-af54-4cfb-9116-321629fcccc4" valueTypeId="9e26ccd1-0fb2-4cd0-9ae2-65aae9dc7b2e"/>
+    </producedTypes>
+    <name>Активы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Активы</value>
+    </synonym>
+    <attributes uuid="dbc18dfc-efa8-467a-9432-9520f6ab85f8">
+      <name>Партия</name>
+      <synonym>
+        <key>ru</key>
+        <value>Партия</value>
+      </synonym>
+      <type>
+        <types>DocumentRef</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="26051105-687e-4834-86ba-f9b7abf38381">
+      <name>ЦеннаяБумага</name>
+      <synonym>
+        <key>ru</key>
+        <value>Ценная бумага</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2a550604-8d2a-4feb-93c9-9b406ffa592c">
+      <name>Валюта</name>
+      <synonym>
+        <key>ru</key>
+        <value>Валюта</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6a97c905-25e8-4cc8-83fb-2ef968830584">
+      <name>КратностьЦБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Кратность ЦБ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a972631c-f152-4b0e-bf15-3101a304a30b">
+      <name>КурсЦБ</name>
+      <synonym>
+        <key>ru</key>
+        <value>Курс ЦБ</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <scale>4</scale>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="adb1a0dc-6083-4017-a25c-8aa264fc6c33">
+      <name>СуммаАмортизации</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма амортизации</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="47be9927-9a91-4fa9-bb1b-04d7abb25bf7">
+      <name>СуммаАмортизацииВал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма амортизации (вал.)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="a008bbc4-009c-413a-812f-13b5cc6b3992">
+      <name>СуммаПереоценки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма переоценки</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="12cfa2e4-1a47-4ea1-895a-978e7228f5d1">
+      <name>СуммаПереоценкиВал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма переоценки (вал.)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="6d1007d9-a3c3-4a02-8e2f-b27bcb464d4b">
+      <name>НКД</name>
+      <synonym>
+        <key>ru</key>
+        <value>НКД</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="7bd6ab19-4c74-4ac6-9d3a-fcf8eb124b6d">
+      <name>НКДВал</name>
+      <synonym>
+        <key>ru</key>
+        <value>НКД (вал.)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="c7958d7f-b27a-4bb2-8d5d-691dd499b750">
+      <name>СуммаИндексацииНоминала</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма индексации номинала</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="2b8caae6-232f-494c-8d16-f28dc1e44abd">
+      <name>СуммаИндексацииНоминалаВал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма индексации номинала (вал.)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="bd5d9785-6c40-48a1-8f8e-f12e612e00f3">
+      <name>СуммаКорректировки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма корректировки</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+    <attributes uuid="d49a620b-fc2b-466b-9241-543b97d6074b">
+      <name>СуммаКорректировкиВал</name>
+      <synonym>
+        <key>ru</key>
+        <value>Сумма корректировки (вал.)</value>
+      </synonym>
+      <type>
+        <types>DefinedType.уа_Стоимость</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

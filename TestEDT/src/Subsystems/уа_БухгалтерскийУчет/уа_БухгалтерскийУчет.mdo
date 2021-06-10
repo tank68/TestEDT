@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2f0cdcff-9dd3-483b-b6d9-c59dc95a560e">
+  <name>уа_БухгалтерскийУчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерский учет</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Document.уа_ОперацияБух</content>
+  <content>Catalog.уа_СтатьиДДС</content>
+  <content>Catalog.уа_СтатьиОПДС</content>
+  <content>Catalog.уа_ЛицевыеСчетаЕПС</content>
+  <content>Catalog.уа_СимволыОФР</content>
+  <content>Enum.уа_ОценочнаяКатегория</content>
+  <content>InformationRegister.уа_НастройкаЕПССчетаЦБ</content>
+</mdclass:Subsystem>

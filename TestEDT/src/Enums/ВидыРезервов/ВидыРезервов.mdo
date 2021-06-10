@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e05584b2-e887-494d-8e8c-92f4bc774561">
+  <producedTypes>
+    <refType typeId="91fae201-7e5f-48fb-960f-79822532cdc8" valueTypeId="75bc9b94-5731-4a77-9d03-03ed22c9b62c"/>
+    <listType typeId="93846119-7cb0-43f3-b1af-f81f5771064d" valueTypeId="7007fe96-192b-4ea7-b8f7-ce0ba6e4ec0c"/>
+    <managerType typeId="9910ae28-57d2-4aea-a864-797a7edd39c7" valueTypeId="682e9dbd-0ac7-4b86-98f0-fd454f5e6d47"/>
+  </producedTypes>
+  <name>ВидыРезервов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды резервов</value>
+  </synonym>
+  <comment>ДУ</comment>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="89f3cdef-e57c-4352-989f-2f0599cfe859">
+    <name>ПНнР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПНнР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4227ebdf-24c3-468f-8572-9e2677562f2f">
+    <name>ВР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ВР</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bac17637-3d2e-467e-88ab-baf6313d521e">
+    <name>РСПВ</name>
+    <synonym>
+      <key>ru</key>
+      <value>РСПВ</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8fa3241e-1ab3-49bb-99e9-3151ee66be83">
+    <name>РОПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>РОПС</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c68b028c-08ac-4241-81f8-55c86abe0eea">
+    <name>ПР</name>
+    <synonym>
+      <key>ru</key>
+      <value>ПР</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

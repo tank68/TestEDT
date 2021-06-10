@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfccb19c-974c-48a7-ab24-14293142d0e0">
+  <producedTypes>
+    <selectionType typeId="ca61ddc0-fd9f-4339-83d0-4528b3823199" valueTypeId="1ce17c89-5fca-4991-ab78-66f31bbde731"/>
+    <listType typeId="6cc94c26-1958-4596-b64a-92ed1d6036a9" valueTypeId="58e82852-0402-477d-a506-fdce2d9a0003"/>
+    <managerType typeId="4db8bdd5-3cf8-47d9-8f24-296502754778" valueTypeId="f098db98-5df9-4dac-947c-c09eb8f574ed"/>
+    <recordSetType typeId="66d105d2-dd3b-4144-8a5f-928e7ca5ac60" valueTypeId="1dffbcc0-b651-4f2e-8f02-e5f605776203"/>
+    <recordKeyType typeId="b636099b-02f0-4dc0-b581-6bef48367e97" valueTypeId="5f652dd2-5ee5-4578-b6f8-f9665cf894be"/>
+    <recordType typeId="b7d90f36-0239-4635-8c42-51da4fa87bd3" valueTypeId="972eafe2-a015-41e6-8d15-18fe8c198347"/>
+    <recordManagerType typeId="2bf59b6c-13e3-41dd-b2f3-87d4ee6243bd" valueTypeId="78b10978-e79c-4bb9-9a11-3269e06f80ea"/>
+  </producedTypes>
+  <name>уа_СоответствияОбъектовУчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Соответствия объектов учета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="d9f145aa-7f85-4e43-a8ef-40e62820ae01">
+    <name>ОбъектУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект учета</value>
+    </synonym>
+    <type>
+      <types>Characteristic.уа_ВидыОбъектовИмпорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <attributes uuid="86b7a109-e799-49fe-9e1e-34780920fc6b">
+    <name>ДатаДобавления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата добавления</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <dimensions uuid="14346914-b8b9-4b08-843b-7f952b58a636">
+    <name>Идентификатор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Идентификатор</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="49ff6027-c0d9-416b-a0f3-1df870541481">
+    <name>ВидОбъектаИмпорта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид объекта импорта</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.уа_ВидыОбъектовИмпорта</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="81810311-23b5-4142-98a0-5cf54727f302">
+    <name>ИсточникДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Источник данных</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.уа_ИсточникиДанных</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

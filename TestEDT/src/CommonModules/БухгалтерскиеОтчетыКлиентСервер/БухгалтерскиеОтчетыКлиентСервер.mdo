@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonModule xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c4ac7dbc-00f1-429a-9f92-ba35839ffd64">
+  <name>БухгалтерскиеОтчетыКлиентСервер</name>
+  <synonym>
+    <key>ru</key>
+    <value>Бухгалтерские отчеты клиент сервер</value>
+  </synonym>
+  <comment>AVR</comment>
+  <clientManagedApplication>true</clientManagedApplication>
+  <server>true</server>
+  <externalConnection>true</externalConnection>
+  <clientOrdinaryApplication>true</clientOrdinaryApplication>
+</mdclass:CommonModule>

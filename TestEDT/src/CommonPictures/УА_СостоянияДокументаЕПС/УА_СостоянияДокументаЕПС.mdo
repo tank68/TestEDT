@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ac5f7b9a-cec0-4ec3-9ea1-2bec3509af02">
+  <name>УА_СостоянияДокументаЕПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Состояния документа ЕПС</value>
+  </synonym>
+</mdclass:CommonPicture>

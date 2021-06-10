@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2e8045aa-6773-4596-a093-c6de8f8765f1">
+  <producedTypes>
+    <objectType typeId="8d632be1-c6d3-4574-bb3b-f7315c5d420d" valueTypeId="2d5c5372-9fb9-4974-9eb1-d525b00a38e5"/>
+    <refType typeId="40922124-de7b-47da-abaf-a01ad5796af8" valueTypeId="2efe6696-a08e-4280-8ffb-05a4444eb08c"/>
+    <selectionType typeId="aa5c5f80-a4fb-455d-abdb-6cbf6eb67494" valueTypeId="ef8b897d-19aa-4a6e-b861-f6820cc02161"/>
+    <listType typeId="bd6bbc84-a7d4-48e9-9177-0454c1a54e06" valueTypeId="f102286c-565b-4035-ac01-63c80577c6c2"/>
+    <managerType typeId="d58665eb-c4ad-415d-a73a-a87250193ba1" valueTypeId="eab0c9cd-3ce6-4eda-b133-ebe491775521"/>
+    <containerType typeId="0f8531de-eabd-4786-9104-1b88303bd9b4" valueTypeId="4c78d213-97eb-4efe-b9e3-d1003d1b94aa"/>
+  </producedTypes>
+  <name>ВидыСубконтоЕПС</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды субконто</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Types subconto UCA</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.ВидыСубконтоЕПС.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>ValueType</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>DontUse</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.уа_СимволыОФР</types>
+    <types>CatalogRef.уа_СтатьиДДС</types>
+    <types>DocumentRef.уа_Партия</types>
+    <types>EnumRef.уа_ВидыСтоимости</types>
+    <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+    <types>CatalogRef.БанковскиеСчета</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>50</descriptionLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="ed6c3ace-ebeb-4ceb-afd6-91fb7b9c1754">
+      <name>БанковскиеСчета</name>
+      <description>Банковские счета</description>
+      <type>
+        <types>CatalogRef.БанковскиеСчета</types>
+      </type>
+    </items>
+    <items id="28a8165a-6745-43fd-a90e-89d72a91ad0b">
+      <name>ВидыСтоимости</name>
+      <description>Виды стоимости</description>
+      <type>
+        <types>EnumRef.уа_ВидыСтоимости</types>
+      </type>
+    </items>
+    <items id="9f436078-c53a-45b8-ba53-369ccb38c042">
+      <name>Договоры</name>
+      <description>Договоры</description>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+    </items>
+    <items id="2464c0c8-3151-4aec-8346-2f5bba527da6">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="708d157d-9a8e-4f4a-8bd8-a991e5507c8b">
+      <name>Партия</name>
+      <description>Партия</description>
+      <type>
+        <types>DocumentRef.уа_Партия</types>
+      </type>
+    </items>
+    <items id="d6f75810-7746-40d1-b922-186b7d51427b">
+      <name>СимволыОФР</name>
+      <description>Символы ОФР</description>
+      <type>
+        <types>CatalogRef.уа_СимволыОФР</types>
+      </type>
+    </items>
+    <items id="89866ca0-fefc-487a-9adf-34b7ce0cb1b0">
+      <name>СтатьиДвиженияДенежныхСредств</name>
+      <description>Статьи движения денежных средств</description>
+      <type>
+        <types>CatalogRef.уа_СтатьиДДС</types>
+      </type>
+    </items>
+    <items id="b9731916-2066-4070-b78b-052500030363">
+      <name>ФинансовыеИнструменты</name>
+      <description>Финансовые инструменты</description>
+      <type>
+        <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>ChartOfCharacteristicTypes.ВидыСубконтоЕПС.Form.ФормаЭлемента</defaultObjectForm>
+  <forms uuid="c883b659-a0e7-435f-808d-58b037063c11">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The form of the element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:ChartOfCharacteristicTypes>

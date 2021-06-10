@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c6fadc9-934e-4fd9-bda5-279ade935c0c">
+  <producedTypes>
+    <refType typeId="0e896f71-c9a9-48a3-bfcc-eb71059660b1" valueTypeId="fe29cbcf-9ea4-43a0-8c07-81c32f07e506"/>
+    <listType typeId="f6647694-8780-4b4b-ba02-4622488f2fda" valueTypeId="070ba2eb-9a32-4f51-82a6-094ab1856b27"/>
+    <managerType typeId="b7d1a0bd-13f5-483f-884c-6e221527a4db" valueTypeId="73bacfca-84f1-4255-a0d5-18fb08653bdc"/>
+  </producedTypes>
+  <name>уа_КлассификацияЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Классификация ЦБ</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="8e4af912-befe-4a7f-8f6e-1c73b834996b">
+    <name>РФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Российской Федерации</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6916b210-7b9b-4f7e-9355-982ecbbc3ee8">
+    <name>СубъектовРФ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Субъектов РФ и органов местного самоуправления</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="09ad52c0-b486-4c6a-be46-85b9adfab0e6">
+    <name>КредитныхОрганизаций</name>
+    <synonym>
+      <key>ru</key>
+      <value>Кредитных организаций</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="402faef8-1cf6-4bec-af03-84b5fc58d800">
+    <name>ПрочихРезидентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочих резидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c8aa8924-8964-4c8a-8e66-e4673a92220d">
+    <name>ИностранныхГосударств</name>
+    <synonym>
+      <key>ru</key>
+      <value>Иностранных государств</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="28111eb6-ec4e-4eef-b3c1-1f85635cc2ed">
+    <name>БанковНерезидентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банков нерезидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c3ef9940-089d-45b1-84fb-06d93b092d96">
+    <name>ПрочихНерезидентов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Прочих нерезидентов</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

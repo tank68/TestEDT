@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c2d82792-cf34-4251-a409-161723fac734">
+  <producedTypes>
+    <refType typeId="c04152da-4322-4da9-ada8-0e020e131a25" valueTypeId="ed63965b-b602-4d09-b63a-1a143c88637b"/>
+    <listType typeId="765e0d3d-84cb-499e-b1b5-9ac6ad664020" valueTypeId="e7861b5f-ebe1-46f3-b23b-dc2842169b84"/>
+    <managerType typeId="95303d26-9892-40a5-bae4-a0f3bdcdf924" valueTypeId="bb53859d-1478-45b7-9334-50b66217d890"/>
+  </producedTypes>
+  <name>уа_ВидыВыплат</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды выплат</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="bd86a41a-ee40-4fd6-83b0-ce6e54f12317">
+    <name>Купон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6154fdb6-0c1d-4124-bb08-85dca1a151ff">
+    <name>ЧастичноеПогашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Частичное погашение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e54a68c2-13ad-4711-a37f-68bb124cf202">
+    <name>ПолноеПогашение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Полное погашение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="9528e2ff-5e5e-4026-b596-94c7bef62a17">
+    <name>Оферта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оферта</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1c229bce-537b-47b0-bd0f-5b0726f78a6e">
+    <name>Дивиденды</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дивиденды</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="810d4021-0900-4a87-b0c2-d40086b6d3ef">
+  <producedTypes>
+    <selectionType typeId="dcf1a000-93a8-472a-86d9-0763f45ca015" valueTypeId="10dc7922-4a62-42f9-95b5-a6f4217fdaa8"/>
+    <listType typeId="9747f6ea-f593-4c6b-a9e8-7260f7906c2c" valueTypeId="0e6053b0-8ea3-4e40-83bd-c574d1f29cb3"/>
+    <managerType typeId="67fb7304-e0be-4c75-b785-845eb1dd485a" valueTypeId="d9f583ce-ecbf-416a-a765-fd9887f59fe4"/>
+    <recordSetType typeId="f15d9e45-3d90-48eb-9b0f-9f53a70fe34b" valueTypeId="c9c6d9ae-d237-431a-a70e-276cdd08c903"/>
+    <recordKeyType typeId="d2451157-05ae-472a-a195-7092e1de7a03" valueTypeId="c18ddd77-4be5-4dff-91a8-fdecf9ee0ccf"/>
+    <recordType typeId="316fb7e8-4336-4b71-97bd-a6962e1924f7" valueTypeId="4846e357-b072-4190-abb5-9ea668e373e7"/>
+    <recordManagerType typeId="60745a46-3fb7-48df-84ee-aaf105dd23c1" valueTypeId="f4f40ab7-90c9-4f91-b19f-6840a7feb94b"/>
+  </producedTypes>
+  <name>НастройкиПравилКонвертацииАналитики</name>
+  <synonym>
+    <key>en</key>
+    <value>Setting for rules of analytics conversion (UCA)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Установка правил конвертации аналитик ЕПС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <listPresentation>
+    <key>en</key>
+    <value>Setting for rules of analytics conversion (UCA)</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Установка правил конвертации аналитик ЕПС</value>
+  </listPresentation>
+  <resources uuid="d2bad0dc-0905-46db-8c8c-1feb423a34dd">
+    <name>НаборПравилКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Набор правил конвертации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>A set of rules conversion</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.НаборПравилКонвертации</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="529e34fd-44b2-46dd-87cb-079797721f93">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Portfolio</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="967ef732-3d06-4eca-bad1-54dd80892976">
+  <producedTypes>
+    <refType typeId="729b5d7d-0db0-45b1-aba0-3ef71695a407" valueTypeId="04848ce6-77a5-465a-aa0e-52bfab52b1c8"/>
+    <listType typeId="e50b44df-a074-4b62-938a-e80c78df8f2b" valueTypeId="06130a94-474e-4942-a954-ff7a03649493"/>
+    <managerType typeId="8b8e3e06-258c-466e-8ec4-67d84fe1e219" valueTypeId="1d17cbd2-b94e-4079-9532-15e506b67a63"/>
+  </producedTypes>
+  <name>уа_ВидыКотировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды котировки</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="15df1f36-cd12-4706-855c-106655348c59">
+    <name>РыночнаяЦена2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рыночная цена2</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbdb5cd8-846f-4196-bedc-b8bf9c48a5f2">
+    <name>ЦенаСпроса</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена спроса</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6d9a57a9-3860-4c2b-81ac-4227496b1610">
+    <name>ЦенаПредложения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена предложения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="de5fd859-31f1-49da-8a78-c8c0ea124a2a">
+    <name>ЦенаНРД</name>
+    <synonym>
+      <key>ru</key>
+      <value>Цена НРД</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2b0f7337-0ba8-430b-b6ac-ea2ece903287">
+    <name>Купон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Купон</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="dd03b656-b913-42f1-bebe-1f02c03d5822">
+    <name>Номинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Номинал</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fced0113-2341-4a56-8f92-f7391b00d64b">
+    <name>КоличествоСделок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Количество сделок</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8bfd72ab-5acf-4aaa-8cd1-669c53c57464">
+    <name>СправедливаяСтоимость</name>
+    <synonym>
+      <key>ru</key>
+      <value>Справедливая стоимость</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

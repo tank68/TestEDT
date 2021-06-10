@@ -1,0 +1,227 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2bdcc94b-679f-480b-a1c1-770474276131">
+  <producedTypes>
+    <objectType typeId="f99d3ad5-cd86-436b-ac92-7d6387a92d0c" valueTypeId="b28c1bc1-84be-4adb-bc57-3eed951719bb"/>
+    <managerType typeId="ca73e015-3923-42e3-9960-c7100efefe83" valueTypeId="2c1f4eeb-1bf6-415b-ba0d-cc4c356c6a38"/>
+  </producedTypes>
+  <name>ШахматнаяВедомость_ЕПС</name>
+  <synonym>
+    <key>en</key>
+    <value>Chess statement UCA</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Шахматная ведомость ЕПС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>Report.ШахматнаяВедомость_ЕПС.Form.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ШахматнаяВедомость_ЕПС.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <attributes uuid="97dd9176-8b56-43ce-ba58-0be7901c3d14">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Portfolio</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="d3e17483-a84b-42af-bac4-97e0cdb34f0b">
+    <name>НачалоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Начало периода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Start of period</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="0aacc70a-930a-44a0-b397-5066c7d7822c">
+    <name>КонецПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Конец периода</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>End of period</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5ccccf9d-e57b-4070-8efa-55df94666f3e">
+    <name>ВключатьОбособленныеПодразделения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Включая обособленные подразделения</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Including separate subdivisions</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="abe580a1-e73e-40fa-b993-70f89f28da38">
+    <name>ПоказательБУ</name>
+    <synonym>
+      <key>ru</key>
+      <value>БУ (ЕПС)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>FA (UCA)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="77dc4466-3107-458d-827a-31099cf14a80">
+    <name>ПоказательВалютнаяСумма</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валютная сумма (ЕПС)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Amount (Local) (UCA)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="3a98ba4b-dca6-46a9-9a5e-02df708b38a4">
+    <name>РежимРасшифровки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Режим расшифровки</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>decryption mode</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="aa65e539-1156-48bc-b0e2-2a0f400d6bdc">
+    <name>ПоСубсчетам</name>
+    <synonym>
+      <key>ru</key>
+      <value>По субсчетам (ЕПС)</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Sub-accounts (UCA)</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="5d0d986f-c587-496a-a51f-95fcde786e72">
+    <name>ВыводитьЗабалансовыеСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выводить забалансовые счета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Show outbalance accounts</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <forms uuid="daff9e46-ce24-4344-a571-1823696452c6">
+    <name>ФормаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма отчета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Report form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="3ee65d3e-e1f5-457f-9af4-1f5deb0b8c27">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Main data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <templates uuid="4adbac6d-f091-430a-b51e-bf1644da2f2b">
+    <name>СхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Схема компоновки данных</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Data composition schema</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+  <commands uuid="4001e32e-a19e-43e5-a619-8329052b1744">
+    <name>ШахматнаяВедомость_ЕПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шахматная ведомость ЕПС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Chess statement ENP</value>
+    </synonym>
+    <group>CommandGroup.БухгалтерскиеОтчетыЕПС</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Report>

@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e1fc5615-63b4-4701-959e-7388a5de3925">
+  <producedTypes>
+    <refType typeId="6519a273-d92d-4066-a25e-8ee61063e111" valueTypeId="b33d2c57-a3c9-4efe-b045-44f41afac3c1"/>
+    <listType typeId="364f70a8-59df-433d-910a-ba095f6522dd" valueTypeId="b6787e63-3468-4a98-b329-47707ae8235b"/>
+    <managerType typeId="1dad5a37-79bf-486b-b074-d442f1605ca3" valueTypeId="44f2b584-bb3b-40ce-a159-a215ad875928"/>
+  </producedTypes>
+  <name>уа_ОценочнаяКатегория</name>
+  <synonym>
+    <key>ru</key>
+    <value>Оценочная категория</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="11dff788-c353-4a43-9fb4-6c7fecc73a32">
+    <name>АктивыПоСправедливойСтоимостиПрибыль</name>
+    <synonym>
+      <key>ru</key>
+      <value>DFPL - Активы/обязательства, переоцениваемые по справедливой стоимости через прибыль или убыток</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="12f3956c-79f8-4abb-9480-4ee1b4d8053b">
+    <name>АктивыДляПерепродажи</name>
+    <synonym>
+      <key>ru</key>
+      <value>AFS - Активы для перепродажи</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="92b88c74-9afa-44c9-8789-413acb723c81">
+    <name>ИнвестицииДоПогашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>HTM - Инвестиции до погашения</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="67f9405d-33a2-4bc7-b8b9-583e542bbab4">
+    <name>АктивыПоАмортизированнойСтоимости</name>
+    <synonym>
+      <key>ru</key>
+      <value>L&amp;R - Активы/обязательства, оцениваемые по амортизированной стоимости</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

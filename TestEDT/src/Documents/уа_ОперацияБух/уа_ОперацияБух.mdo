@@ -1,0 +1,496 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Document xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dc0aae0f-303a-4fdb-a599-499650c13804">
+  <producedTypes>
+    <objectType typeId="5ef84985-918c-417c-a49f-cbbb0b1213c9" valueTypeId="f77d4feb-ed17-4d3e-989b-a5b270bf9bb9"/>
+    <refType typeId="3c15b383-bbb4-4fa5-af70-fd253aee81c9" valueTypeId="8a54c17f-2863-4484-86d1-d7015add1ad2"/>
+    <selectionType typeId="4f7147d6-2b1d-4316-9f81-ed222cd0bcad" valueTypeId="29139fda-9568-4e8d-9628-b32291b8ef4c"/>
+    <listType typeId="382646b4-6c49-43b7-b42c-50f794ab872e" valueTypeId="fb08be01-cd21-4bab-bbd6-cad94f0cc1d5"/>
+    <managerType typeId="1db83854-649b-4eb8-ae62-bed76583f043" valueTypeId="3b93557b-13bd-48e9-99be-0364d8adfa77"/>
+  </producedTypes>
+  <name>уа_ОперацияБух</name>
+  <synonym>
+    <key>ru</key>
+    <value>Операция, введенная вручную</value>
+  </synonym>
+  <synonym>
+    <key>en</key>
+    <value>Adjusting entry</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Document.уа_ОперацияБух.StandardAttribute.Number</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Posted</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Date</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Number</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Операция, введенная вручную</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>en</key>
+    <value>Adjusting entry</value>
+  </objectPresentation>
+  <extendedListPresentation>
+    <key>ru</key>
+    <value>Операции, введенные вручную</value>
+  </extendedListPresentation>
+  <extendedListPresentation>
+    <key>en</key>
+    <value>Universal transactions</value>
+  </extendedListPresentation>
+  <numberType>String</numberType>
+  <numberLength>11</numberLength>
+  <numberPeriodicity>Year</numberPeriodicity>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultObjectForm>Document.уа_ОперацияБух.Form.ФормаДокумента</defaultObjectForm>
+  <defaultListForm>Document.уа_ОперацияБух.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Document.уа_ОперацияБух.Form.ФормаВыбора</defaultChoiceForm>
+  <posting>Deny</posting>
+  <registerRecordsDeletion>AutoDeleteOff</registerRecordsDeletion>
+  <registerRecordsWritingOnPost>WriteModified</registerRecordsWritingOnPost>
+  <sequenceFilling>AutoFillOff</sequenceFilling>
+  <registerRecords>AccountingRegister.ЕПС</registerRecords>
+  <attributes uuid="dc60c4da-89ba-4128-ab0e-2e82b2db00e5">
+    <name>Автор</name>
+    <synonym>
+      <key>ru</key>
+      <value>Автор</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responcible person</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a482a65b-6afb-4b88-978f-0f67b164d7fd">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Portfolio</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="ccba779a-7c75-4091-9620-9be7452be486">
+    <name>СуммаОперации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма операции РСБУ</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Transaction Amount RAR</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="add5ff9c-41b2-4c1b-9141-bbcb6d480106">
+    <name>СуммаОперацииЕПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сумма операции ЕПС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Amount ENP operation</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>20</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8daecf9c-53bf-45b1-8d63-3ed1b5529bd6">
+    <name>Ответственный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ответственный</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Responsible person</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Пользователи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a0f962e0-e3bf-4cf6-b14f-bc069bf0eba6">
+    <name>Содержание</name>
+    <synonym>
+      <key>ru</key>
+      <value>Содержание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Content</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>200</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="0ae963f1-a44a-4cc5-a62a-7c6a8af1f935">
+    <name>ВестиПуловойУчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вести пуловой учет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Maintain a pool account</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a51764b0-8271-4263-8ed7-66f0710a55e7">
+    <name>ЛицевойСчетПодбиратьАвтоматически</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет подбирать автоматически</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The personal account is automatically selected</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:BooleanValue">
+      <value>true</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5c91381a-889f-4865-8bd2-39261223b9af">
+    <name>ВнешнийКод</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний код</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>External code</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="8f5e2b54-20db-498f-99a2-d58959144c7e">
+    <name>ИсправительнаяПроводка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Исправительная проводка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>adjusting entry</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e70749a3-6916-47bd-8994-27593fdfbbd3">
+    <name>ОснованиеИсправительнойПроводки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основание</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Base</value>
+    </synonym>
+    <type>
+      <types>DocumentRef</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="7d06fc25-bad1-4765-8ba3-e8639c84bd83">
+    <name>ФормаДокумента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма документа</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Document form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="3d0eb6c6-1853-45ef-b70d-cc03bd45835b">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The form of the chaise</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b227fe66-c2e3-4c5a-ad21-eac6fea266cb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1567103c-eace-4460-8dce-cf2b27400934">
+    <name>ФормаНастройки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Настройка отображения регистров</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Setting display registers</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <tabularSections uuid="a54f0058-1ec8-4a7f-868b-53fbc2cf10d8">
+    <producedTypes>
+      <objectType typeId="a409e9b1-1556-4f99-86e9-8608026af354" valueTypeId="c4592d8e-6550-4811-ba82-3a025f7c79ab"/>
+      <rowType typeId="4a153e8f-f1d8-4a98-a9c4-22bf17a4bacb" valueTypeId="ae0d57a5-f48b-4d60-9d21-50db7607ff34"/>
+    </producedTypes>
+    <name>ТаблицаРегистровСведений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица регистров сведений</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Table of data registers</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="672efedd-bc7c-411f-a706-5675720d818b">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <tabularSections uuid="14e7569b-621a-4655-9f03-6c3c5d13b23f">
+    <producedTypes>
+      <objectType typeId="8948d003-042e-45d5-92e0-9435ce787e24" valueTypeId="df1a66e3-1bdf-4f62-b670-2c7d766d8f75"/>
+      <rowType typeId="a6170689-cf4e-4e7a-bdbf-921cc74cfc4c" valueTypeId="97773578-ddcd-4aad-9a21-cf9127e135ba"/>
+    </producedTypes>
+    <name>ТаблицаРегистровНакопления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Таблица регистров накопления</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Table accumulation registers</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="b4fb3c96-23fb-4231-8198-850b6e1185d6">
+      <name>Имя</name>
+      <synonym>
+        <key>ru</key>
+        <value>Имя</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Name</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>200</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <templates uuid="9f1815f9-2991-465d-9ef8-f49151868a44">
+    <name>БухгалтерскаяСправка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Бухгалтерская справка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Accounting statement</value>
+    </synonym>
+  </templates>
+  <commands uuid="d2c66304-4789-49c4-96bc-72924184d9ed">
+    <name>Печать</name>
+    <synonym>
+      <key>ru</key>
+      <value>Печать</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Print</value>
+    </synonym>
+    <group>CommandGroup.Печать</group>
+    <commandParameterType/>
+    <parameterUseMode>Multiple</parameterUseMode>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:Document>

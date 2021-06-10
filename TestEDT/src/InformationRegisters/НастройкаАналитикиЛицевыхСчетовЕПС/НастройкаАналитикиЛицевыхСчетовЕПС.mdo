@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3ce6da0f-c9b8-4460-bc33-0241a19dfd61">
+  <producedTypes>
+    <selectionType typeId="242d2761-c3b0-4147-b986-10cccb922c00" valueTypeId="65183c90-8f25-4d37-8436-d3a192982970"/>
+    <listType typeId="b4313c14-1004-40a4-bfab-b437d247f417" valueTypeId="525f1240-2cd9-46f2-a103-4475399388ff"/>
+    <managerType typeId="53057b1d-20ed-4d67-bef6-e656e6de7a8e" valueTypeId="204095f0-818c-490e-9cc6-3fe3622ac9d9"/>
+    <recordSetType typeId="8444f54f-1eb2-4bd4-9750-eb291a5310cf" valueTypeId="f32a3802-607c-42b8-8b29-877eb7b795ac"/>
+    <recordKeyType typeId="b5e75ef6-c780-458d-8e0b-ac0cc19f333a" valueTypeId="0c9338a1-6296-4df4-9f12-e78afc4cb416"/>
+    <recordType typeId="6a44b8d4-c5f3-4d80-831c-e82bd6e231c9" valueTypeId="b6453e5d-fa52-429a-a5aa-708134407744"/>
+    <recordManagerType typeId="1ec1a734-648c-48af-b3ba-3b2312df002e" valueTypeId="18b8c8ce-208e-4529-9442-7db66a8e2e86"/>
+  </producedTypes>
+  <name>НастройкаАналитикиЛицевыхСчетовЕПС</name>
+  <synonym>
+    <key>en</key>
+    <value>Setting of analytics of Personal accounts (UCA) </value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка аналитики лицевых счетов ЕПС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.НастройкаАналитикиЛицевыхСчетовЕПС.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.НастройкаАналитикиЛицевыхСчетовЕПС.Form.ФормаСписка</defaultListForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="6fb06109-05ad-45d0-8b41-56624c6c967d">
+    <name>Аналитика1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Analytics1</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5110744f-e5fc-42a6-9e19-d4b8328705f6">
+    <name>Аналитика2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Analytics2</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="10d5b504-8edc-4e84-8884-a6fe6d1d38fe">
+    <name>Аналитика3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Analytics3</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="694096a3-3e20-4a9a-831b-27c467da6f9d">
+    <name>Аналитика4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика4</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Analytics4</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="1dc7bff4-4ae5-4c77-aa49-2fcfaf478bf6">
+    <name>Аналитика5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Аналитика5</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Analytics5</value>
+    </synonym>
+    <type>
+      <types>ChartOfCharacteristicTypesRef.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7324eb66-863a-43ab-9a65-786b6a2f138a">
+    <name>МаскаЛицевогоСчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Маска лицевого счета</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>account mask</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.МаскаЛицевогоСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="e93d925e-b410-4570-8e44-904aa913259e">
+    <name>Счет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <choiceParameters>
+      <name>Отбор.ПорядокСчета</name>
+      <value xsi:type="core:ReferenceValue">
+        <value>d6f7c597-54c9-4cc2-ae6b-8860a0b70470.bf66e89c-9c54-46df-9707-b421a69538ac</value>
+      </value>
+    </choiceParameters>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="3344f4f5-0eb4-443c-8aae-83d29a797784">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Portfolio</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0cb50b83-eb35-4ae8-9a45-8607c09cf7fd">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The form of the list</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b59ade6f-e732-40a2-8270-8bd11ccddcd6">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

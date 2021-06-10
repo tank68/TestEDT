@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DefinedType xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="401e10bf-0c60-4095-8b0c-00cfbb410682">
+  <producedTypes>
+    <containerType typeId="9a342311-c60c-41cb-b835-765f9ad2fdce" valueTypeId="c3031f4c-e887-4532-87b0-41f21549fd44"/>
+  </producedTypes>
+  <name>УА_КоличествоЦенныхБумаг</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество ценных бумаг</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>15</precision>
+    </numberQualifiers>
+  </type>
+</mdclass:DefinedType>

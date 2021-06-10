@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="71c07de0-953f-4a29-bd64-fcd292fedcc8">
+  <producedTypes>
+    <objectType typeId="63653eda-6c9d-4f0d-a137-6802c5727360" valueTypeId="9e9586d5-92bf-4c3a-82d8-755b936d390d"/>
+    <refType typeId="7e6b48e7-acf7-47d3-92ac-c1edb4557d52" valueTypeId="f2d25ccb-4c74-48b1-ab5f-056e07bbae72"/>
+    <selectionType typeId="ef48d338-0800-4738-9bea-0e3407c1e25a" valueTypeId="b0ad9a94-398e-47b2-afa8-75fbf1704218"/>
+    <listType typeId="1a9a5980-4d5d-4285-8ba3-7c117cb2f065" valueTypeId="742803ee-de59-428b-b599-6bd236ed9a4f"/>
+    <managerType typeId="f78ce0bd-77c9-4e7c-9386-92a7a7201c66" valueTypeId="2715c587-9694-4927-8f69-fd4af21a61f9"/>
+  </producedTypes>
+  <name>НаборПравилКонвертации</name>
+  <synonym>
+    <key>en</key>
+    <value>Set of rules of analytics conversion (UCA)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Набор правил конвертации аналитики ЕПС</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.НаборПравилКонвертации.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.НаборПравилКонвертации.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>en</key>
+    <value>Set of rules of analytics conversion (UCA)</value>
+  </objectPresentation>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Набор правил конвертации аналитики ЕПС</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>en</key>
+    <value>Set of rules of analytics conversion (UCA)</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Наборы правил конвертации ЕПС</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>50</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <tabularSections uuid="6c7feca2-21e7-4d4f-ad1e-7040d24ede24">
+    <producedTypes>
+      <objectType typeId="fef81fe9-fb64-4206-9f47-789aeea575fc" valueTypeId="6e25f24a-b1d2-4749-b7d5-24797e910d4b"/>
+      <rowType typeId="e8bf1113-c0d5-42ce-b810-adccdee7ef7f" valueTypeId="6a8150ea-3db2-4182-bf83-19a434d071ec"/>
+    </producedTypes>
+    <name>ПравилаКонвертации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Правила конвертации</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>rules of conversion</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="23724366-6b43-48f6-9b56-833fc67eebc5">
+      <name>ПравилоКонвертацииАналитики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Правило конвертации аналитики</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>Analysts generally conversion</value>
+      </synonym>
+      <type>
+        <types>CatalogRef.ПравилаКонвертацииАналитики</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillChecking>ShowError</fillChecking>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+</mdclass:Catalog>

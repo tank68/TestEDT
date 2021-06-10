@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8b196284-714c-410d-bf31-ad17ca2ad90f">
+  <producedTypes>
+    <objectType typeId="11805d1f-d7c7-41e3-a10e-ee793657ab1d" valueTypeId="eeaaed83-59d0-44f9-a90e-c896daac9a65"/>
+    <managerType typeId="67c23a58-d41d-424b-8cea-ced3244a6e2f" valueTypeId="e61ac7de-71fb-46ee-85dc-7f832f87f2f0"/>
+  </producedTypes>
+  <name>Расшифровка500ХСчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Расшифровка 500-х счетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <mainDataCompositionSchema>Report.Расшифровка500ХСчетов.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="d7122992-df41-4db3-9197-89cdac9cd886">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

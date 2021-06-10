@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5a59d120-1f0c-46ab-b3a5-dca1bd607884">
+  <producedTypes>
+    <refType typeId="83a9d312-de93-44e4-b06a-5f6dfe737965" valueTypeId="7dc23f49-98d9-44eb-8a5c-4be3fdb35851"/>
+    <listType typeId="6bc231ce-cc01-47cc-8e83-b0e366b49fda" valueTypeId="838a6716-fef7-4ecc-930b-0cd4974cf5ec"/>
+    <managerType typeId="a7f35514-5f16-444e-b723-480de5554d1d" valueTypeId="8c240c3d-fd1b-4752-8ccb-1d1b46f1b0c3"/>
+  </producedTypes>
+  <name>уа_КатегорииАктива</name>
+  <synonym>
+    <key>ru</key>
+    <value>Категории актива</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c31b2587-b802-495c-a6f9-6beed14842a9">
+    <name>Акция</name>
+    <synonym>
+      <key>ru</key>
+      <value>Акция</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="68ab411b-f241-4ecb-836d-60dbcdc34f32">
+    <name>Облигация</name>
+    <synonym>
+      <key>ru</key>
+      <value>Облигация</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6881573d-11e0-4575-8925-09fbe0cbe4d4">
+    <name>Пай</name>
+    <synonym>
+      <key>ru</key>
+      <value>Инвестиционный пай</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="103bdca4-7d94-4b31-a95d-e1d67fc4cb12">
+    <name>ДепозитарнаяРасписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Депозитарная расписка</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1fa2d874-1aeb-4be9-b879-77ad6a8216e9">
+    <name>ИпотечныйСертификатУчастия</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ипотечный сертификат участия</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bec6e57a-8abe-4acb-951d-ee2ea96e94e1">
+    <name>Вексель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вексель</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="86776c67-5692-4a1f-b3ef-e89476b89b6d">
+    <name>Опцион</name>
+    <synonym>
+      <key>ru</key>
+      <value>Опцион</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ce3da0c1-ab18-4644-8962-ebb4ba8a01ea">
+    <name>Фьючерс</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фьючерс</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="cd64a299-3f72-42e7-a877-c33b52e435a2">
+    <name>СВОП</name>
+    <synonym>
+      <key>ru</key>
+      <value>СВОП</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b350b23e-516c-4952-9e53-4edee4cc838d">
+  <producedTypes>
+    <selectionType typeId="d24f4c92-75a7-4105-99eb-53686779d1b8" valueTypeId="2bd93d19-40b2-4b99-a145-9c0d049350ed"/>
+    <listType typeId="8d000371-25f1-4396-bc81-33e06818f5f5" valueTypeId="c09b08d6-a278-452f-846d-e86c3697876c"/>
+    <managerType typeId="ed3d7b4a-8319-4c2c-bc4b-a0524efbb81b" valueTypeId="d18a88ed-7dac-478d-ba6e-c0e5696c83df"/>
+    <recordSetType typeId="880317ff-5df0-4ca2-99cc-3d819c7d7b3e" valueTypeId="005fb793-a3c9-4d6b-bb4b-9e0d9c7389d3"/>
+    <recordKeyType typeId="1767ba07-d60a-4216-a7c5-5b20d3b362a2" valueTypeId="5ff537ee-30a2-4f31-acb4-3252cef89183"/>
+    <recordType typeId="725c2f36-f520-4c80-a005-3418156f70f8" valueTypeId="35a6929c-0762-4407-adf7-d9e97bb5213b"/>
+    <recordManagerType typeId="7473c13c-d02a-40bd-bac3-262ff77f443c" valueTypeId="aef08fa9-e060-4594-ab6b-c6eeaeaaf244"/>
+  </producedTypes>
+  <name>уа_Котировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Котировки финансовых инструментов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultListForm>InformationRegister.уа_Котировки.Form.ФормаСписка</defaultListForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="25b0e7c6-5091-4c59-bf3b-8b6b9137dfe9">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="ea8241dc-b80f-4c8b-b092-7d017e89f225">
+    <name>ВидКотировки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вид котировки</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_ВидыКотировки</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="81812613-1984-47b9-a757-df704f168a8a">
+    <name>Биржа</name>
+    <synonym>
+      <key>ru</key>
+      <value>Биржа</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.уа_Биржи</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="90e55a50-43b0-463c-95ac-3fff7e13256b">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a1b3ec5e-5884-48af-a88d-79fe7136152d">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="8b0ee2df-1196-4046-8319-55a4f3a602bc">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="0e0c5395-5081-44ae-afab-c97da20f1a56">
+    <name>ФормаЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма загрузки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="1978bc13-e3eb-4a83-8d93-491c814192e1">
+    <name>МакетЗагрузки</name>
+    <synonym>
+      <key>ru</key>
+      <value>Макет загрузки</value>
+    </synonym>
+  </templates>
+</mdclass:InformationRegister>

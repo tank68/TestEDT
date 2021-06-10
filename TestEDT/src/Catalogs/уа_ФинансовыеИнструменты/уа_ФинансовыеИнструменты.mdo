@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d2ef129c-a663-4a19-ae49-c1a740c15f40">
+  <producedTypes>
+    <objectType typeId="92f17483-2b2a-4c09-abb8-c29560ebe56a" valueTypeId="089b37ea-a6a3-42cc-8e3a-b66de4923baf"/>
+    <refType typeId="5413e57a-11f3-4c08-93e5-b32964db160c" valueTypeId="d3e7c0cf-5883-472e-ba5b-72df3f9b7363"/>
+    <selectionType typeId="32ce83aa-49f8-4cd6-b16d-0b8fe650f6d7" valueTypeId="c0b9b9d4-83fd-4e08-93ee-333fc4876d2b"/>
+    <listType typeId="2b6f8b39-8a1c-4867-b6e9-b2ec374f383e" valueTypeId="95885c7f-bdeb-48d3-b6b6-8349b3c954dc"/>
+    <managerType typeId="e9d94da0-4697-4053-b738-1e9bc2a7f233" valueTypeId="016ada10-a880-49f5-bc2d-f4598613e202"/>
+  </producedTypes>
+  <name>уа_ФинансовыеИнструменты</name>
+  <synonym>
+    <key>ru</key>
+    <value>Финансовые инструменты</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.уа_ФинансовыеИнструменты.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.уа_ФинансовыеИнструменты.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:ReferenceValue">
+      <value>Catalog.уа_ФинансовыеИнструменты.EmptyRef</value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Финансовый инструмент</value>
+  </objectPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Финансовые инструменты</value>
+  </listPresentation>
+  <hierarchical>true</hierarchical>
+  <limitLevelCount>true</limitLevelCount>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="e0eb1a21-9a19-4b0f-85d2-fefc228112db">
+      <name>ЦБ_ИнИнвФондов</name>
+      <description>Акции (паи, доли) иностранных инвестиционных фондов</description>
+      <code xsi:type="core:StringValue">
+        <value>000000014</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="7dd894f8-1266-439b-bc8b-ea0b0f035352">
+      <name>АкцииИнАО</name>
+      <description>Акции иностранных акционерных обществ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000001</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="ab6e7df0-e001-44d5-a473-d2dbdcdc87c2">
+      <name>АкцииРосАО</name>
+      <description>Акции российских акционерных обществ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000002</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="b5bb5b26-38c0-4471-8d3b-c0f60c56ede9">
+      <name>ГосЦБ_НаРынкеЦБ</name>
+      <description>Государственные ценные бумаги РФ, обращающиеся на рынке ценных бумаг, за исключением  облигаций внешних облигационных займов РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000004</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="f288634c-a9a4-4422-8679-3762a65f742c">
+      <name>ГосЦБ_ВыпущПравРФ</name>
+      <description>Государственные ценные бумаги РФ, специально выпущенные Правительством РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000003</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="56dfdf7d-71e3-4d66-96fd-9b9236aa2d48">
+      <name>ГосЦБ_СубьектовРФ</name>
+      <description>Государственные ценные бумаги субъектов Российской Федерации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000005</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="31e937f3-2004-4100-8067-1002978845cb">
+      <name>ДепозитныеCертификаты</name>
+      <description>Депозитные сертификаты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000006</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="5062f203-187e-41a5-88e8-b8fa9a57309d">
+      <name>Депозиты</name>
+      <description>Депозиты</description>
+      <code xsi:type="core:StringValue">
+        <value>000000019</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="df764b92-37e9-49a5-9a65-b650ea90457d">
+      <name>ИнвестиционныеПаи_ПИФ_РФ</name>
+      <description>Инвестиционные паи паевых инвестиционных фондов, выданные в соответствии с законодательством РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000007</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="c25e3781-ef78-44d4-b6c6-fb001f507a70">
+      <name>ИпотечныеСертификатыУчастияРФ</name>
+      <description>Ипотечные сертификаты участия, выпущенные в соответствии с законодательством РФ об ипотечных ценных </description>
+      <code xsi:type="core:StringValue">
+        <value>000000008</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="78df963c-9bf5-4ba9-a604-6f1d34f84506">
+      <name>МНО</name>
+      <description>МНО</description>
+      <code xsi:type="core:StringValue">
+        <value>000000018</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="47b7e8be-67c8-4492-8f84-feff51bd4d51">
+      <name>МуниципальныеОблигации</name>
+      <description>Муниципальные облигации</description>
+      <code xsi:type="core:StringValue">
+        <value>000000009</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="5a84b48b-2932-4565-9cfd-7ec44b8f9892">
+      <name>Недвижимость</name>
+      <description>Недвижимость</description>
+      <code xsi:type="core:StringValue">
+        <value>000000017</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="8d1471f9-d81a-4368-a69b-9bf65b5440d9">
+      <name>ОблигацииРФ</name>
+      <description>Облигации внешних облигационных займов РФ</description>
+      <code xsi:type="core:StringValue">
+        <value>000000012</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="02306a7d-89da-48b8-a726-8115fbe03ff7">
+      <name>ОблигацииИнКомОрг</name>
+      <description>Облигации иностранных коммерческих организаций</description>
+      <code xsi:type="core:StringValue">
+        <value>000000010</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="83afba0d-c85d-402f-bb7f-69af26eab3db">
+      <name>ОблигацииРосХозОбщ</name>
+      <description>Облигации российских хозяйственных обществ (за исключением облигаций с ипотечным покрытием)</description>
+      <code xsi:type="core:StringValue">
+        <value>000000011</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="35e13790-bd4b-4f38-ae0f-7181cd09c937">
+      <name>ОблигацииСИпотечПокрытием</name>
+      <description>Облигации с ипотечным покрытием, выпущенные в соответствии с законодательством РФ об ипотечных ценны</description>
+      <code xsi:type="core:StringValue">
+        <value>000000013</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="a5bb104e-993b-4e32-84a3-f11da7c02447">
+      <name>Прочее</name>
+      <description>Прочее</description>
+      <code xsi:type="core:StringValue">
+        <value>000000020</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="7b7f4a44-b86c-4a58-9bc9-38013ef36b44">
+      <name>ЦБ_МеждународныхФинОрг</name>
+      <description>Ценные бумаги международных финансовых организаций</description>
+      <code xsi:type="core:StringValue">
+        <value>000000015</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+    <items id="a6132d85-3218-4e2b-83ea-ff20bbfb5d30">
+      <name>ЦБ_ПравительствИнГосударств</name>
+      <description>Ценные бумаги правительств иностранных государств</description>
+      <code xsi:type="core:StringValue">
+        <value>000000016</value>
+      </code>
+      <isFolder>true</isFolder>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.уа_ФинансовыеИнструменты.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.уа_ФинансовыеИнструменты.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.уа_ФинансовыеИнструменты.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="25b213b3-459f-46b9-906d-2b9e3081254e">
+    <name>CFI</name>
+    <synonym>
+      <key>ru</key>
+      <value>CFI</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="83f39f66-7c44-4d20-8723-1ea37d7d5fc3">
+    <name>ISIN</name>
+    <synonym>
+      <key>ru</key>
+      <value>ISIN</value>
+    </synonym>
+    <comment>International Securities Identification Number</comment>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5efd8db8-e417-4021-81ee-788ab63ae173">
+    <name>Адрес</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3c9ce6c5-079d-46f7-b33b-03f252e95275">
+    <name>АдресВнутреннееПредставление</name>
+    <synonym>
+      <key>ru</key>
+      <value>Адрес внутреннее представление</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="b9232b29-da41-4709-9afc-08c4f86b03d3">
+    <name>БанковскийСчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Банковский счет</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.БанковскиеСчета</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="76bc32f5-fba2-47dc-a64a-751f60b71d53">
+    <name>ВалютаНоминала</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта номинала</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="affaeb8a-9256-43ef-a192-7fc3bd7b3a2b">
+    <name>ГруппаЦенныхБумаг</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа ценных бумаг</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>2</precision>
+        <nonNegative>true</nonNegative>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <use>ForFolder</use>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d758e338-c317-441f-b2a0-d19da54a8d75">
+    <name>ДатаВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата выпуска</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="36ec4db1-4742-45f2-b05f-6a1b90248991">
+    <name>ДатаПогашения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дата погашения</value>
+    </synonym>
+    <type>
+      <types>Date</types>
+      <dateQualifiers>
+        <dateFractions>Date</dateFractions>
+      </dateQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="9a31e98b-b25d-410e-a392-dc59affccc7a">
+    <name>КодГосРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Рег. номер</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="664eef41-a6e7-4801-b0d5-f0f227800d4c">
+    <name>Комментарий</name>
+    <synonym>
+      <key>ru</key>
+      <value>Комментарий</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="5e51d9d5-629c-4071-b986-df9d5d6c4efb">
+    <name>НаименованиеПолное</name>
+    <synonym>
+      <key>ru</key>
+      <value>Наименование полное</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Name (regl.)</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>255</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="468bfb52-54f0-4c07-bd32-a6fc80a21708">
+    <name>Номинал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Первоначальный номинал</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+        <scale>2</scale>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="539996d5-b3a5-4de3-8326-e03e8d9b73ab">
+    <name>ОбъемВыпуска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объем выпуска</value>
+    </synonym>
+    <type>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>18</precision>
+      </numberQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="203816c6-56ed-4fa3-976d-d24c3dd3260d">
+    <name>КлассификацияЦБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификация ЦБ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_КлассификацияЦБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="23e822fe-47b3-4839-8f7c-85fc87c9be2c">
+    <name>ТипЦББР</name>
+    <synonym>
+      <key>ru</key>
+      <value>Тип ЦБ (классификация Банка России)</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_ТипыЦенныхБумагБР</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <createOnInput>DontUse</createOnInput>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="469c735f-0dba-44f8-96a7-48e820d7772f">
+    <name>Эмитент</name>
+    <synonym>
+      <key>ru</key>
+      <value>Эмитент</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Контрагенты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="47ac414e-c2d0-4a57-a214-d1e9e7424399">
+    <name>КатегорияАктива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория актива</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_КатегорииАктива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="a2865b57-9418-4719-a0a7-ba582825902d">
+    <name>ИндексируемыйНоминал</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индексируемый номинал</value>
+    </synonym>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="71ccfe95-2017-49a3-980a-676680d3d39a">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7fb18953-a7e5-4f6a-8cb4-90e35041a500">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="380e1bb8-3357-4efb-b2d3-4a269ba3f656">
+    <name>ФормаСпискаБезГрупп</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка без групп</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

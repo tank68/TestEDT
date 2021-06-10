@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonForm xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="04e16e3a-e32d-4ea9-a956-569956dc6f87">
+  <name>НастройкаПредставленияПортфеляДляОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройка представления портфеля для отчетов</value>
+  </synonym>
+  <usePurposes>PersonalComputer</usePurposes>
+  <usePurposes>MobileDevice</usePurposes>
+</mdclass:CommonForm>

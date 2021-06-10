@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="47234665-f7d4-4662-8a61-7b33b665179f">
+  <name>уа_Справочники</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справочники</value>
+  </synonym>
+  <includeHelpInContents>true</includeHelpInContents>
+  <includeInCommandInterface>true</includeInCommandInterface>
+  <content>Catalog.уа_ФинансовыеИнструменты</content>
+  <content>Catalog.Портфели</content>
+  <content>InformationRegister.уа_СоответствияОбъектовУчета</content>
+  <content>Enum.уа_ТипыЦенныхБумагБР</content>
+  <content>Catalog.уа_Стратегии</content>
+  <content>Catalog.уа_ИсточникиДанных</content>
+  <content>Catalog.уа_СектораЭкономики</content>
+  <content>Catalog.уа_Биржи</content>
+  <content>Catalog.уа_ЗначенияРейтингов</content>
+  <content>Catalog.уа_ШкалыРейтингов</content>
+  <content>Enum.уа_ВидыВыплат</content>
+  <content>InformationRegister.уа_ПотокиВыплат</content>
+  <content>Enum.уа_ВидыКотировки</content>
+  <content>InformationRegister.уа_Котировки</content>
+  <content>16613c6a-68ab-45da-a709-ee30adbc098e</content>
+  <content>Enum.уа_КатегорииАктива</content>
+  <parentSubsystem>Subsystem.уа_УправлениеАктивами</parentSubsystem>
+</mdclass:Subsystem>

@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a99b4ba1-dd6e-4774-9e1c-34f2807e90ab">
+  <producedTypes>
+    <selectionType typeId="267d8a41-ef51-49fa-9c0d-e92db4577a13" valueTypeId="17115f1b-3b8f-4b8b-8951-7c106dae63ee"/>
+    <listType typeId="10d30f73-4310-4b55-8f42-bda871c84098" valueTypeId="0abedc7a-8550-427d-a3be-981d1a551219"/>
+    <managerType typeId="0c515b7b-07df-4cd8-a66e-8b7033998aec" valueTypeId="d317da33-4f01-45fb-9c9a-8c45993c11df"/>
+    <recordSetType typeId="a10d701f-7343-4c8c-96d2-aad434c1d874" valueTypeId="843dc414-3dc8-49d5-8f51-c55ffdd79225"/>
+    <recordKeyType typeId="ba2d33d9-810b-4dbd-bd39-fb9b96c81203" valueTypeId="80354ec9-9fdb-4097-bdba-0bafbda14ef5"/>
+    <recordType typeId="efbcdb9e-2172-431a-b31c-6c1ef6f167c1" valueTypeId="5f149877-72b8-4a20-8c64-237ede17939b"/>
+    <recordManagerType typeId="8b3ce91e-1221-4202-b118-b8c80adff4fd" valueTypeId="62b87b57-2e03-4a96-8a2d-9c98ecb1ce4a"/>
+  </producedTypes>
+  <name>ДанныеЛицевыхСчетовЕПС</name>
+  <synonym>
+    <key>en</key>
+    <value>Data for personal account UCA</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Данные лицевых счетов ЕПС</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ДанныеЛицевыхСчетовЕПС.Form.ФормаЗаписи</defaultRecordForm>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="1217eb56-94ba-4ba1-826c-1f451fe27a26">
+    <name>ЛицевойСчетДляПоиска</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет для поиска</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Personal Account for search</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.уа_ЛицевыеСчетаЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+  </resources>
+  <dimensions uuid="b1244eea-cb36-4fa4-9ff4-e7c4d0d533ae">
+    <name>СчетЕПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет ЕПС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Account ENP</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ea8b7e4e-aa2e-4ade-a707-52148b468719">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Portfolio</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="a8cb16cc-f04e-43c3-ac19-a1008d12c62a">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Par value CCY</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="10787c50-1a40-4357-9120-e0bf906023eb">
+    <name>ЗначениеАналитики1</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение аналитики1</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Meaning analitiki1</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="f221ee09-bdb4-4712-a2cc-d4951bce6a0e">
+    <name>ЗначениеАналитики2</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение аналитики2</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Meaning analitiki2</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="b07b962f-9fd7-44cc-b36f-5f9346c96f57">
+    <name>ЗначениеАналитики3</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение аналитики3</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Meaning analitiki3</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="53e0ced3-001b-4e33-9de2-196d785c242d">
+    <name>ЗначениеАналитики4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение аналитики4</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Meaning analitiki4</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="bd49e2cd-290a-4c3d-9405-e6698f1b59e7">
+    <name>ЗначениеАналитики5</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение аналитики5</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Meaning analitiki5</value>
+    </synonym>
+    <type>
+      <types>Characteristic.ВидыСубконтоЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="77ce370c-b241-494e-8b86-22088a0277f8">
+    <name>ЛицевойСчетЕПС</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лицевой счет ЕПС</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Personal account of the ENP</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.уа_ЛицевыеСчетаЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="0e4b9c6d-c3b0-49a8-97e1-09af89d93b3d">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Record form</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

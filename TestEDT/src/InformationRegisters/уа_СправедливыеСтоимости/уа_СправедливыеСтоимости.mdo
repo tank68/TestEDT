@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca9f2a66-5c29-48b3-8140-bd69d2871a52">
+  <producedTypes>
+    <selectionType typeId="d3f0ec22-b4fd-4988-8e3c-baafc0cfeded" valueTypeId="258ed0f8-b30f-44c6-a9ac-3ddeed44ad58"/>
+    <listType typeId="79c4e9b0-ac7f-40ff-969b-0821f2bd0145" valueTypeId="f4569591-6452-4c3d-8dd9-13e543824a4d"/>
+    <managerType typeId="de5ae646-3844-4de0-b7cf-5b24868c24dc" valueTypeId="1492ceec-0238-4e11-ba53-396f4a3a2840"/>
+    <recordSetType typeId="5ceed728-bcb6-4c43-a18f-02e8699f4a77" valueTypeId="7fa4769b-16e1-44f2-9bb6-1294e9c42b21"/>
+    <recordKeyType typeId="ae882f52-159a-49b8-9025-5a48a355ab9f" valueTypeId="b3635eaa-763a-485f-b49a-41d458c7a4c6"/>
+    <recordType typeId="e62d5df9-5384-48fd-be8a-61c3e0e89f7f" valueTypeId="18a2afa5-aad5-435e-8a85-32fd53c04462"/>
+    <recordManagerType typeId="acc81411-86b4-4eed-ac28-8bfa9e15f449" valueTypeId="e4550941-df7c-455f-bb22-845c71a18516"/>
+  </producedTypes>
+  <name>уа_СправедливыеСтоимости</name>
+  <synonym>
+    <key>ru</key>
+    <value>Справедливые стоимости</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <enableTotalsSliceLast>true</enableTotalsSliceLast>
+  <resources uuid="c2186184-99e1-4210-a103-749e8cacfb50">
+    <name>Значение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Значение</value>
+    </synonym>
+    <type>
+      <types>DefinedType.уа_Цена</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <attributes uuid="2339af74-08e0-448a-9ef2-f033b12e5a01">
+    <name>Валюта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Валюта</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Валюты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </attributes>
+  <attributes uuid="f32a5edf-f9a7-482c-89c0-01190bac59e5">
+    <name>УровеньЦены</name>
+    <synonym>
+      <key>ru</key>
+      <value>Уровень цены</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>10</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+  </attributes>
+  <dimensions uuid="141882c9-ed7d-44a3-a6ed-e971a71ebadc">
+    <name>Портфель</name>
+    <synonym>
+      <key>ru</key>
+      <value>Портфель</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.Портфели</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="683ca7da-3c13-4c1d-a8cd-5adf84bbc5c7">
+    <name>ЦеннаяБумага</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ценная бумага</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

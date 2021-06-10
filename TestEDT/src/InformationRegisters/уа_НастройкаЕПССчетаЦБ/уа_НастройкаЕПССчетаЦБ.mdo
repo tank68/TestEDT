@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12bac753-2e66-4ccd-9c13-fbfcb14eeb04">
+  <producedTypes>
+    <selectionType typeId="c61ca31a-bacd-45ec-9040-83313963d587" valueTypeId="38cda2d3-dd42-4639-9494-f878c39d71bb"/>
+    <listType typeId="98ba5bb9-4eee-45c6-a761-25b55ad59119" valueTypeId="2cd9b396-c370-4a87-8546-0843a8593a23"/>
+    <managerType typeId="35280e1e-d6f7-4293-b842-c89b7a2ccaf2" valueTypeId="429cb562-df0a-41e8-9a4d-7834562a79e5"/>
+    <recordSetType typeId="120889f4-86da-4fee-9e55-ee8fdd12cecf" valueTypeId="62e7c7bd-45f7-4425-9116-d7f447a758ca"/>
+    <recordKeyType typeId="5aad2ff1-0b62-4ef4-a117-80cb85d24dda" valueTypeId="c676b985-8e88-4596-8d03-a174fc551731"/>
+    <recordType typeId="65d55341-4588-4049-9d5a-e6d26eb42ee9" valueTypeId="9c82829c-bb61-40fc-8412-ecd5e256fc89"/>
+    <recordManagerType typeId="0b634b0f-93f4-4953-8d42-6737d776f2d5" valueTypeId="5b876e77-b780-4f69-8d55-6a33c0728573"/>
+  </producedTypes>
+  <name>уа_НастройкаЕПССчетаЦБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Счета учета ценных бумаг</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.уа_НастройкаЕПССчетаЦБ.Form.ФормаЗаписи</defaultRecordForm>
+  <informationRegisterPeriodicity>Day</informationRegisterPeriodicity>
+  <mainFilterOnPeriod>true</mainFilterOnPeriod>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <resources uuid="cfe9cd93-6cb2-4075-9ed6-d41eb7d3a837">
+    <name>СчетУчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Счет учета</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="8f73afe0-6d60-4108-8d89-14136b111533">
+    <name>ПереоценкаПоложительная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка положительная</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3dfd2e3a-4504-4075-af72-af61282043ea">
+    <name>ПереоценкаОтрицательная</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка отрицательная</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="a7a7676a-a3d4-4285-8c0f-b9c07ae59dbd">
+    <name>КорректировкаУвеличение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка увеличение</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="7dd16bf2-1480-44bb-b517-6ac2d314f1d9">
+    <name>КорректировкаУменьшение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка уменьшение</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="3605901b-4fc6-4fb2-8d70-342ea6ad06cf">
+    <name>РезервыПодОбесценение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервы под обесценение</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c543bd01-0f83-486f-aefa-0fe9cad88c17">
+    <name>УчетДочерних</name>
+    <synonym>
+      <key>ru</key>
+      <value>Учет дочерних</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="42aabada-ba97-4ca9-b574-2dd55cf2118b">
+    <name>БезПрекращенияПризнания</name>
+    <synonym>
+      <key>ru</key>
+      <value>Без прекращения признания</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="d546ea89-3b54-452e-8195-642839c3de3d">
+    <name>ПереоценкаПоложительнаяПереданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка положительная переданные</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="21efafac-d48a-4481-949a-f068bbf0695f">
+    <name>ПереоценкаОтрицательнаяПереданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Переоценка отрицательная переданные</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="c2b7c567-1ef1-4cbb-9533-891ed1bc9658">
+    <name>КорректировкаУвеличениеПереданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка увеличение переданные</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="2845456a-1249-4852-bf79-37132abb2968">
+    <name>КорректировкаУменьшениеПереданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Корректировка уменьшение переданные</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="5b4fd99d-444c-4183-9fe7-b12a42a2ffd3">
+    <name>РезервыПодОбесценениеПереданные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Резервы под обесценение переданные</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <resources uuid="700ac47a-0f9c-40fa-9f5b-05c13984a60d">
+    <name>ВыбытиеРеализацияЦБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбытие реализация ЦБ</value>
+    </synonym>
+    <type>
+      <types>ChartOfAccountsRef.ЕПС</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+  </resources>
+  <dimensions uuid="03c3c20a-e130-4f40-8f99-5b31760aec22">
+    <name>КатегорияАктива</name>
+    <synonym>
+      <key>ru</key>
+      <value>Категория актива</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_КатегорииАктива</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c974015e-f57c-4262-9223-b5b4b19248fd">
+    <name>КлассификацияЦБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Классификация ЦБ</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_КлассификацияЦБ</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="9e9144f6-4f33-472d-9a19-874269ddf480">
+    <name>ОценочнаяКатегория</name>
+    <synonym>
+      <key>ru</key>
+      <value>Оценочная категория</value>
+    </synonym>
+    <type>
+      <types>EnumRef.уа_ОценочнаяКатегория</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <forms uuid="f11d3b59-f02e-4d3b-9823-8a7a7051d843">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:InformationRegister>

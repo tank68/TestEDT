@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7771767d-3f81-4a0f-b3a3-ab913cba214a">
+  <producedTypes>
+    <objectType typeId="eee30216-6377-422b-bb08-0d284edc6ceb" valueTypeId="f90155e7-f226-4110-9a50-5d9b09b3259e"/>
+    <refType typeId="dcc26dcc-a2d9-4138-af1d-aca0cd37f2f1" valueTypeId="e77e8632-14bc-4e01-a99e-c9c3894d3479"/>
+    <selectionType typeId="ebf16df0-e6ea-4fd0-a199-d0ac9db76ef2" valueTypeId="b10def20-12de-4ed6-9dca-d79026fb3418"/>
+    <listType typeId="cbb71181-735d-4e5b-b0be-96aeb92575b4" valueTypeId="3ae02c17-4b10-4e1b-a12f-65018287c168"/>
+    <managerType typeId="d27b3001-51e0-4062-8b70-e1e0fd24fb0a" valueTypeId="ae4c2f67-daf7-41aa-ba69-12ee2dbbfa47"/>
+  </producedTypes>
+  <name>МаскаЛицевогоСчета</name>
+  <synonym>
+    <key>en</key>
+    <value>Templates of Personal accounts (UCA)</value>
+  </synonym>
+  <synonym>
+    <key>ru</key>
+    <value>Маска лицевого счета</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.МаскаЛицевогоСчета.StandardAttribute.Description</inputByString>
+  <inputByString>Catalog.МаскаЛицевогоСчета.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>PredefinedDataName</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Predefined</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>DeletionMark</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>IsFolder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Owner</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Parent</name>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Description</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Code</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <createOnInput>Use</createOnInput>
+  <includeHelpInContents>true</includeHelpInContents>
+  <help>
+    <pages>
+      <lang>ru</lang>
+    </pages>
+  </help>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <listPresentation>
+    <key>en</key>
+    <value>Templates of Personal accounts (UCA)</value>
+  </listPresentation>
+  <listPresentation>
+    <key>ru</key>
+    <value>Маски лицевого счета</value>
+  </listPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <descriptionLength>25</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.МаскаЛицевогоСчета.Form.ФормаЭлемента</defaultObjectForm>
+  <attributes uuid="2c562f29-22df-4ff8-9a5d-a6947689c8dc">
+    <name>Шаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Шаблон</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Template</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <multiLine>true</multiLine>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="4633fb17-65c0-4ac0-adae-e345724e0e5f">
+    <name>МаскаПредставленияСчета</name>
+    <synonym>
+      <key>en</key>
+      <value>Templates of presentation</value>
+    </synonym>
+    <synonym>
+      <key>ru</key>
+      <value>Маска представления счета</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers/>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Задается маска представления номера лицевого счета, например:
+ХХХХХ.ХХХ.Х.Х.ХХХХХХХХХХ</value>
+    </toolTip>
+    <toolTip>
+      <key>en</key>
+      <value>&quot;Sets the mask submission account number, for example:
+ HHHHH.HHH.H.H.HHHHHHHHHH&quot;</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <tabularSections uuid="be385c30-9815-4bdc-b1a4-6441a57bdc51">
+    <producedTypes>
+      <objectType typeId="a2aef99b-32f2-456e-b1cc-2e7d03623029" valueTypeId="353e5f7f-4195-478b-8960-8edefbd88ed5"/>
+      <rowType typeId="a27e339c-5df6-4c97-9f61-c76657468b99" valueTypeId="09937674-86bf-40fc-ab17-16d99adbf865"/>
+    </producedTypes>
+    <name>ВидыАналитик</name>
+    <synonym>
+      <key>ru</key>
+      <value>Виды аналитик</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>Forms analyst</value>
+    </synonym>
+    <standardAttributes>
+      <dataHistory>Use</dataHistory>
+      <name>LineNumber</name>
+      <fillValue xsi:type="core:UndefinedValue"/>
+      <fullTextSearch>Use</fullTextSearch>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+    </standardAttributes>
+    <attributes uuid="679bfea4-1c5e-4ce6-8efa-9906199cc8ec">
+      <name>ВидАналитики</name>
+      <synonym>
+        <key>ru</key>
+        <value>Вид аналитики</value>
+      </synonym>
+      <synonym>
+        <key>en</key>
+        <value>View analytics</value>
+      </synonym>
+      <type>
+        <types>ChartOfCharacteristicTypesRef.ВидыСубконтоЕПС</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <dataHistory>Use</dataHistory>
+      <fullTextSearch>Use</fullTextSearch>
+    </attributes>
+  </tabularSections>
+  <forms uuid="cf0c286f-7a47-4981-bab6-3563c6ede671">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <synonym>
+      <key>en</key>
+      <value>The form of the element</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:Catalog>

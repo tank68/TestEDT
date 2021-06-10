@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b60b806a-ca60-4624-a241-a51b91d70881">
+  <producedTypes>
+    <refType typeId="95838313-c140-488c-ab15-2d3944433530" valueTypeId="e1df7c50-ac1d-4f85-8ed2-f4b7b0771c88"/>
+    <listType typeId="a0487aea-4123-40b3-8f62-ef70097fb77f" valueTypeId="d56163f7-de33-4d9e-9e8f-0ece875c32f1"/>
+    <managerType typeId="297a69e3-84fd-4bd6-9888-aa05649e2096" valueTypeId="bbab8f26-c603-404c-b20b-5a3773d1ddbe"/>
+  </producedTypes>
+  <name>уа_ТипыЦенныхБумагБР</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы ценных бумаг(классификация Банка России)</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="6e114194-da4e-4adf-ab1d-f7623087071f">
+    <name>BON1</name>
+    <synonym>
+      <key>ru</key>
+      <value>облигации, эмитированные федеральными органами исполнительной власти Российской Федерации, и облигации Банка России</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="735a829c-7fdb-47ed-b3dc-1328e90a68e6">
+    <name>BON2</name>
+    <synonym>
+      <key>ru</key>
+      <value>облигации органов исполнительной власти субъектов Российской Федерации и муниципальных образований</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64ec072d-a8a2-46ad-92e8-5bae2f543082">
+    <name>BON3</name>
+    <synonym>
+      <key>ru</key>
+      <value>облигации кредитных организаций - резидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="53f4a654-c8b0-44f8-8675-57844e5ada29">
+    <name>BON4</name>
+    <synonym>
+      <key>ru</key>
+      <value>облигации прочих резидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d38afbe3-0818-422d-8b22-3b2c8f468c08">
+    <name>BON5</name>
+    <synonym>
+      <key>ru</key>
+      <value>облигации иностранных государств и облигации иностранных центральных банков</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="417dd141-684c-4e75-8285-018f75353c2d">
+    <name>BON6</name>
+    <synonym>
+      <key>ru</key>
+      <value>облигации банков - нерезидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="0984852d-6b63-48a6-aee5-e55697176ebd">
+    <name>BON7</name>
+    <synonym>
+      <key>ru</key>
+      <value>облигации прочих нерезидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="89b64fb1-6bf3-4aa9-adc2-2309ded1068d">
+    <name>DS1</name>
+    <synonym>
+      <key>ru</key>
+      <value>депозитные сертификаты кредитных организаций - резидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4bb79e51-925e-4c0c-ad09-ef67da0835e9">
+    <name>DS2</name>
+    <synonym>
+      <key>ru</key>
+      <value>депозитные сертификаты банков - нерезидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="00d804a6-edf9-4bca-9fe6-b42d041d246c">
+    <name>SHS1</name>
+    <synonym>
+      <key>ru</key>
+      <value>акции кредитных организаций - резидентов (обыкновенные)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="64180ea4-6f0f-471f-9385-953029077821">
+    <name>SHS2</name>
+    <synonym>
+      <key>ru</key>
+      <value>акции кредитных организаций - резидентов (привилегированные)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="75cb4883-6459-481b-ac80-9de13db94db5">
+    <name>SHS3</name>
+    <synonym>
+      <key>ru</key>
+      <value>акции прочих резидентов (обыкновенные)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="91e0e78b-019f-4ade-9632-204b7a6012ef">
+    <name>SHS4</name>
+    <synonym>
+      <key>ru</key>
+      <value>акции прочих резидентов (привилегированные)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="66fe314a-e18d-4fa3-a562-2e9b9634784e">
+    <name>SHS5</name>
+    <synonym>
+      <key>ru</key>
+      <value>акции банков - нерезидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="643261b7-042b-43be-9ffb-b0f8ff4da782">
+    <name>SHS6</name>
+    <synonym>
+      <key>ru</key>
+      <value>прочие акции нерезидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bd09c489-0fc9-414c-b234-63a61fc65bc3">
+    <name>SHS7</name>
+    <synonym>
+      <key>ru</key>
+      <value>паи, доли инвестиционных фондов - нерезидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="2214743a-5eca-4f6b-8a9a-9c6b7fc427a2">
+    <name>SHS8</name>
+    <synonym>
+      <key>ru</key>
+      <value>паи, доли инвестиционных фондов - резидентов</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="6e532381-0140-469a-91cb-ccf62776c689">
+    <name>DR</name>
+    <synonym>
+      <key>ru</key>
+      <value>депозитарные расписки</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8d9dcf35-40c2-46bd-8877-2cfac9e093b9">
+    <name>CON</name>
+    <synonym>
+      <key>ru</key>
+      <value>складское свидетельство</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5eb66e19-314f-49b8-8ab1-e959b50c5e70">
+    <name>WTS</name>
+    <synonym>
+      <key>ru</key>
+      <value>варранты</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="63cb3e44-3e6c-4c2a-9143-1d113d6d3340">
+    <name>OPNI</name>
+    <synonym>
+      <key>ru</key>
+      <value>опционы эмитента</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="87d072f8-c765-48e7-9683-67082f40f371">
+    <name>ENC</name>
+    <synonym>
+      <key>ru</key>
+      <value>закладные</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

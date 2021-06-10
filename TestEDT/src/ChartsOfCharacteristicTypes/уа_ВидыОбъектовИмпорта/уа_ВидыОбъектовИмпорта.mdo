@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:ChartOfCharacteristicTypes xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b1fa6f74-3d5a-4757-bb33-ea621370716f">
+  <producedTypes>
+    <objectType typeId="315d26aa-c37e-444d-9cc7-5d9b01e6638f" valueTypeId="e4a9a50d-0e5d-4577-929a-3a1edda85aee"/>
+    <refType typeId="05d2e5d1-3cdf-4347-b555-48d4ef41d6e0" valueTypeId="68921ac8-7b9d-4abe-82e6-65fd00f367dc"/>
+    <selectionType typeId="dcdf747e-959a-4dd3-959a-3ab31659e3a7" valueTypeId="09b58f0a-54cd-4428-8759-747eb57fd41b"/>
+    <listType typeId="be85f607-c8b3-48da-8336-54eaf026c9e0" valueTypeId="98b3515d-f24e-4312-91ee-bdade698f3da"/>
+    <managerType typeId="b40eef4a-c089-40d1-a441-c100ff7cd888" valueTypeId="47cabc34-5359-4425-a0a2-0b81be8fcd90"/>
+    <containerType typeId="5e639eae-e57f-4a4b-8696-207a04391fb7" valueTypeId="47feeef8-6054-4759-b8e0-dfd376c08033"/>
+  </producedTypes>
+  <name>уа_ВидыОбъектовИмпорта</name>
+  <synonym>
+    <key>ru</key>
+    <value>Виды объектов импорта</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>ChartOfCharacteristicTypes.уа_ВидыОбъектовИмпорта.StandardAttribute.Description</inputByString>
+  <inputByString>ChartOfCharacteristicTypes.уа_ВидыОбъектовИмпорта.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <type>
+    <types>CatalogRef.Валюты</types>
+    <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+    <types>CatalogRef.БанковскиеСчета</types>
+    <types>CatalogRef.Контрагенты</types>
+    <types>CatalogRef.ДоговорыКонтрагентов</types>
+    <types>CatalogRef.Портфели</types>
+  </type>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <descriptionLength>25</descriptionLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefined>
+    <items id="448668bd-82e7-4cd8-8f54-253c586e720f">
+      <name>БанковскиеСчета</name>
+      <description>Банковские счета</description>
+      <code>000000001</code>
+      <type>
+        <types>CatalogRef.БанковскиеСчета</types>
+      </type>
+    </items>
+    <items id="d4565aed-7750-4c97-8ef8-15d851e084fb">
+      <name>Валюты</name>
+      <description>Валюты</description>
+      <code>000000002</code>
+      <type>
+        <types>CatalogRef.Валюты</types>
+      </type>
+    </items>
+    <items id="c443ffe1-304b-4d1e-8a52-ee2b1326965a">
+      <name>ДоговорыКонтрагентов</name>
+      <description>Договоры контрагентов</description>
+      <code>000000003</code>
+      <type>
+        <types>CatalogRef.ДоговорыКонтрагентов</types>
+      </type>
+    </items>
+    <items id="7af0afc5-5027-420a-94a8-9d9470fc6f0d">
+      <name>Контрагенты</name>
+      <description>Контрагенты</description>
+      <code>000000004</code>
+      <type>
+        <types>CatalogRef.Контрагенты</types>
+      </type>
+    </items>
+    <items id="0731bb03-071e-44c5-a7b3-3a7592db7573">
+      <name>Портфели</name>
+      <description>Портфели</description>
+      <code>000000005</code>
+      <type>
+        <types>CatalogRef.Портфели</types>
+      </type>
+    </items>
+    <items id="5ce4b0f7-cb88-453f-9958-aff17a1dc943">
+      <name>ФинансовыеИнструменты</name>
+      <description>Финансовые инструменты</description>
+      <code>000000006</code>
+      <type>
+        <types>CatalogRef.уа_ФинансовыеИнструменты</types>
+      </type>
+    </items>
+  </predefined>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:ChartOfCharacteristicTypes>

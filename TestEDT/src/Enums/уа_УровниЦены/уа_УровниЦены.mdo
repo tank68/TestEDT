@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e31b02e-3933-436d-b303-7edab8e8caf2">
+  <producedTypes>
+    <refType typeId="18fb5bf6-de0f-4df8-93c0-281d74372b08" valueTypeId="5caad6ec-9fbb-439d-81d5-29751167def2"/>
+    <listType typeId="21ea3efd-ab66-47b6-83a2-358058bae59b" valueTypeId="03b60c43-75c8-4800-9b5d-3ae435fc1a8e"/>
+    <managerType typeId="70a6b70f-13cf-49cd-aaa6-efdc416e038e" valueTypeId="854e007e-4fb1-439c-9159-bb36d23d5e19"/>
+  </producedTypes>
+  <name>уа_УровниЦены</name>
+  <synonym>
+    <key>ru</key>
+    <value>Уровни цены</value>
+  </synonym>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="85ae4eaa-37c1-4148-86a7-cce31c3d2dd0">
+    <name>Уровень1A</name>
+    <synonym>
+      <key>ru</key>
+      <value>1A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d8cef923-1d20-43f9-8a77-6db285d8e581">
+    <name>Уровень1B</name>
+    <synonym>
+      <key>ru</key>
+      <value>1B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fd3c9105-1188-4154-96b5-ce2589cb4c9c">
+    <name>Уровень1C</name>
+    <synonym>
+      <key>ru</key>
+      <value>1C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e956d2d2-2b4d-427d-9664-8734e62bdc7e">
+    <name>Уровень2A</name>
+    <synonym>
+      <key>ru</key>
+      <value>2A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e710f13b-32c5-4a48-af22-c2127dd143af">
+    <name>Уровень2B</name>
+    <synonym>
+      <key>ru</key>
+      <value>2B</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="fe228da7-c9e8-42af-bc26-670e50faf51a">
+    <name>Уровень2C</name>
+    <synonym>
+      <key>ru</key>
+      <value>2C</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="32047d36-6bcc-4c8f-b7e3-40317c7b7f18">
+    <name>Уровень3A</name>
+    <synonym>
+      <key>ru</key>
+      <value>3A</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="5ef480a6-b259-4ecf-9fe0-65ba95e3862d">
+    <name>Уровень3B</name>
+    <synonym>
+      <key>ru</key>
+      <value>3B</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

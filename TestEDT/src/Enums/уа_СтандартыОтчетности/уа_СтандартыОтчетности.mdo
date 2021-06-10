@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a9f0ba2b-7f11-4383-99f9-5a2bb276fde6">
+  <producedTypes>
+    <refType typeId="fe7cb82b-af05-4efc-bf6d-177dd3208215" valueTypeId="a67c993d-c2a2-48a7-b1ff-2e61fb21372c"/>
+    <listType typeId="8ddbef8c-ba00-46ea-8072-6cf65f1d74e1" valueTypeId="56b0b8f0-87eb-4f11-9e99-8ff59a3b8033"/>
+    <managerType typeId="d4796142-0e00-4af6-ae8d-679d03da44a1" valueTypeId="033181d2-605a-4a06-9a5f-216ac4616c8f"/>
+  </producedTypes>
+  <name>уа_СтандартыОтчетности</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандарты отчетности</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="0d8ee5fb-fe19-4be1-a702-4fb25dfe6a02">
+    <name>МСФО_9</name>
+    <synonym>
+      <key>ru</key>
+      <value>МСФО 9</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="ba681ed0-c0be-45cf-94d2-f9f9c0740861">
+    <name>МСФО_39</name>
+    <synonym>
+      <key>ru</key>
+      <value>МСФО 39</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>
