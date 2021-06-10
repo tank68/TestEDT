@@ -39,5 +39,6 @@
   <catalogs>Catalog.Справочник</catalogs>
   <catalogs>Catalog.СправочникВетка1</catalogs>
   <catalogs>Catalog.Справочник1Ветка1</catalogs>
+  <catalogs>Catalog.Справочник1Мастер</catalogs>
   <documents>Document.Тест11</documents>
 </mdclass:Configuration>
