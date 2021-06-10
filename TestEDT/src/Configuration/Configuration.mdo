@@ -36,6 +36,6 @@
   </languages>
   <catalogs>Catalog.Тест11</catalogs>
   <catalogs>Catalog.Тест22</catalogs>
-  <catalogs>Catalog.СправочникМихаил</catalogs>
+  <catalogs>Catalog.Справочник</catalogs>
   <documents>Document.Тест11</documents>
 </mdclass:Configuration>
