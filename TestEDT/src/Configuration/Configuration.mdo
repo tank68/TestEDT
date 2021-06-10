@@ -35,5 +35,6 @@
     <languageCode>ru</languageCode>
   </languages>
   <catalogs>Catalog.Тест11</catalogs>
+  <catalogs>Catalog.Тест22</catalogs>
   <documents>Document.Тест11</documents>
 </mdclass:Configuration>
