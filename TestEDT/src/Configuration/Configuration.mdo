@@ -34,8 +34,12 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+<<<<<<< HEAD
   <subsystems>Subsystem.Подсистема1</subsystems>
   <commonModules>CommonModule.ОбщийМодуль2</commonModules>
   <catalogs>Catalog.Тест1</catalogs>
   <documents>Document.ТестДок1</documents>
+=======
+  <sessionParameters>SessionParameter.ПараметрСеанса</sessionParameters>
+>>>>>>> branch 'master' of https://github.com/tank68/TestEDT
 </mdclass:Configuration>
