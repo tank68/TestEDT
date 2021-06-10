@@ -34,6 +34,9 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.МояРазработка</subsystems>
+  <subsystems>Subsystem.Фича1</subsystems>
+  <subsystems>Subsystem.Основная</subsystems>
   <catalogs>Catalog.Тест11</catalogs>
   <catalogs>Catalog.Тест22</catalogs>
   <catalogs>Catalog.Справочник</catalogs>
