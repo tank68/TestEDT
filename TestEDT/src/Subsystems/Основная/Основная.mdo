@@ -7,10 +7,8 @@
   </synonym>
   <includeHelpInContents>true</includeHelpInContents>
   <includeInCommandInterface>true</includeInCommandInterface>
-  <content>Catalog.Тест1</content>
   <content>Catalog.Тест11</content>
   <content>Catalog.Тест22</content>
   <content>Catalog.Справочник</content>
-  <content>Document.ТестДок1</content>
   <content>Document.Тест11</content>
 </mdclass:Subsystem>
