@@ -34,6 +34,7 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <commonModules>CommonModule.ОбщийМодуль</commonModules>
   <catalogs>Catalog.Тест1</catalogs>
   <documents>Document.ТестДок1</documents>
 </mdclass:Configuration>
