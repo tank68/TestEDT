@@ -40,4 +40,5 @@
   <catalogs>Catalog.СправочникВетка1</catalogs>
   <catalogs>Catalog.Справочник1Ветка1</catalogs>
   <documents>Document.Тест11</documents>
+  <documents>Document.Документ1МояРазработка</documents>
 </mdclass:Configuration>
