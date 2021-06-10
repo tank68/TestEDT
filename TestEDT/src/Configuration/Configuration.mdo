@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="744a0db5-712b-49a0-b5e6-8c18dc9430d8">
-  <name>TestEDT</name>
+  <name>УправлениеАктивами</name>
   <synonym>
     <key>ru</key>
     <value>Управление активами</value>

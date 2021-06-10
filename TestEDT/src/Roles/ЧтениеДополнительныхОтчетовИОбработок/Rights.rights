@@ -56,7 +56,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Configuration.TestEDT</name>
+		<name>Configuration.УправлениеАктивами</name>
 		<right>
 			<name>MainWindowModeNormal</name>
 			<value>true</value>
